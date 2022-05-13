@@ -1,0 +1,6 @@
+.imgWrapper{
+    background-image: url(./assets/imgBg.svg);
+    background-size: 90%;
+    background-repeat: no-repeat ;
+    background-position:  center  40px ;
+}

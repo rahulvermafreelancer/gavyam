@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "light";
+    src: url(./assets/fonts/light.ttf);
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(./assets/fonts/regular.ttf);
+}
+
+
+@layer components {
+    .d {
+        @apply border-2 border-green ;
+    }
+    .container {
+        @apply mx-auto;
+    }
+    .hero-btn{
+        @apply  py-2 px-8 border-2 border-white rounded-full  text-lg transition-colors duration-300 lg:text-xl font-bold hover:no-underline  ;
+    }
+    .blade-title {
+        @apply  text-3xl md:text-3xl lg:text-4xl 2xl:text-5xl  ;
+    }
+    .blade-y-margin {
+        @apply  my-10 md:my-14 lg:my-20 ;
+    }
+    .font-title {
+        @apply text-3xl md:text-3xl lg:text-4xl 2xl:text-5xl font-semibold tracking-wider ;
+    }
+    .font-subtitle{
+        @apply text-xl  lg:text-2xl 2xl:text-3xl  ;
+    }
+    .para-text {
+        @apply text-base lg:text-lg 2xl:text-xl  text-gray;
+    }
+}
+
+
+@layer base{
+    a {
+        @apply hover:underline  underline-offset-4;
+    }
+}
