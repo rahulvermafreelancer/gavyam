@@ -11,3 +11,13 @@
     background-repeat: no-repeat;
     background-size: 70%;
 }
+@media screen and ( max-width:1024px){
+    .corousel_wrapper {
+        bottom: 10px ;
+       
+    }
+    .banner_text_wrapper{
+        padding-top: 100px !important
+        ;
+    }
+}
