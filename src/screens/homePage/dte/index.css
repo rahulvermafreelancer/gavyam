@@ -1,0 +1,6 @@
+.dte-master .img-wrapper {
+    background-image: url(../../../assets/dte/bg.png) , url(../../../assets/dte/hero.png);
+    background-position: bottom center , center calc(100% - 50px);
+    background-size: 85% , min( 120px , 90%) auto ;
+    background-repeat: no-repeat , no-repeat ;
+}

@@ -1,0 +1,9 @@
+.corousel_wrapper {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 90%;
+    width: 60%;
+    border-radius: 350px;
+}

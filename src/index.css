@@ -37,7 +37,7 @@
         @apply text-xl  lg:text-2xl 2xl:text-3xl  ;
     }
     .para-text {
-        @apply text-base lg:text-lg 2xl:text-xl  text-gray;
+        @apply text-base lg:text-lg 2xl:text-xl;
     }
 }
 

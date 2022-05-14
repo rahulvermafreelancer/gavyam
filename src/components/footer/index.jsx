@@ -8,11 +8,12 @@ export const Footer = () =>{
 
     return (
         <>
-        <FooterHeader />
-        <footer className="min-h-[25rem] bg-gradient-to-b from-footer-top to-footer-bottom font-poppins text-green font-regular  " >
-              <section className="  max-w-screen-2xl  sm:w-11/12 mx-auto lg:flex flex-wrap items-start justify-between  px-4 gap-10 h-full">
-                  <div className="flex flex-col flex-nowrap items-start justify-start py-10 gap-10 ">
-                    <svg className="px-3 mx-auto " xmlns="http://www.w3.org/2000/svg" width="287.624" height="50.104" viewBox="0 0 287.624 50.104">
+        {/* <FooterHeader /> */}
+        <footer className="bg-gray pt-72" >
+        <div className="min-h-[25rem]  max-w-screen-2xl text-green font-regular md:w-11/12 mx-auto flex flex-wrap justify-center row-12">
+                
+            <section className="mt-2 mb-6 px-4 mx-auto md:px-10 flex-1">
+            <svg  xmlns="http://www.w3.org/2000/svg" width="220.624" className="mt-10 mb-6 mx-auto"  height="45.104" viewBox="0 0 287.624 50.104">
                     <g id="Layer_2" data-name="Layer 2" transform="translate(0.004 0.011)">
                         <g id="Layer_1" data-name="Layer 1" transform="translate(-0.004 -0.011)">
                         <path id="Path_9936" data-name="Path 9936" d="M217.11,5.99c.112-.1.18-.135.2-.191a5.765,5.765,0,0,1,1.854-1.865,11.147,11.147,0,0,1,2.057-1.27,8.473,8.473,0,0,1,3.113-.877c.652,0,1.315-.18,1.978-.225a8.529,8.529,0,0,1,1.416.056,7.924,7.924,0,0,1,1.36.191,6.743,6.743,0,0,1,1.056.2,13.722,13.722,0,0,1,1.776.6A17.8,17.8,0,0,1,234.1,3.8a8.551,8.551,0,0,1,1.652,1.326,22.079,22.079,0,0,1,1.585,2.09c.124.18.225.292.438.258s.27-.157.27-.348a.214.214,0,0,1,.056-.146A21.229,21.229,0,0,1,240.35,4.63c.865-.73,1.9-1.191,2.821-1.832a5.911,5.911,0,0,1,1.618-.629,13.2,13.2,0,0,1,4.394-.618,15.114,15.114,0,0,1,2.012.236,12.72,12.72,0,0,1,1.821.36,11.472,11.472,0,0,1,1.9.742,17.766,17.766,0,0,1,2,1.124,7.225,7.225,0,0,1,1.776,1.731c.472.618,1,1.2,1.416,1.854a11.722,11.722,0,0,1,.742,1.618A15.127,15.127,0,0,1,261.634,12a16.416,16.416,0,0,1,.214,1.821c.169,1.91,0,3.821.067,5.731V33.522a7.4,7.4,0,0,0,.079.832c-.393,0-.753.09-1.124.09H252.7a2.158,2.158,0,0,1-.27,0c-.27-.056-.427-.112-.427-.494V15.575a4.5,4.5,0,0,0-.348-1.517,7.8,7.8,0,0,0-.787-1.6,5.8,5.8,0,0,0-1.821-1.641,1.708,1.708,0,0,0-1.214-.393.64.64,0,0,1-.281-.067,6.125,6.125,0,0,0-3.6,0,6.192,6.192,0,0,0-1.674.6,5.945,5.945,0,0,0-1.27.989,7.508,7.508,0,0,0-1.124,1.764,5.811,5.811,0,0,0-.348,1.416.652.652,0,0,1,0,.157,1.573,1.573,0,0,0-.112.854,4.986,4.986,0,0,1-.056.809V33.612a1.248,1.248,0,0,0,0,.292c.09.4,0,.539-.416.584a1.5,1.5,0,0,1-.225,0h-8.541a2.157,2.157,0,0,1-.27,0c-.4-.056-.438-.135-.371-.528a3.962,3.962,0,0,0,0-.73V29.488c0-.416.056-.933.056-1.393,0-.742,0-1.483-.056-2.248,0-.416.056-.832.056-1.247s-.056-.865-.056-1.292.056-.944.056-1.416c0-2.045,0-4.091-.09-6.136a5.753,5.753,0,0,0-.584-2.36,7.192,7.192,0,0,0-1.27-1.776,5.877,5.877,0,0,0-2.4-1.247,8,8,0,0,0-2.911-.236,11.721,11.721,0,0,0-1.18.258,4.091,4.091,0,0,0-2.248,1.191,7.866,7.866,0,0,0-1.124,1.461,6.855,6.855,0,0,0-.764,2.4,1.271,1.271,0,0,0,0,.292V34.129c0,.258-.1.337-.337.337h-9.181c-.281,0-.483-.067-.483-.494V2.506c0-.629.1-.73.73-.708h8.777c.315,0,.427.1.427.416v3.36a1.057,1.057,0,0,0,.146.416Z" transform="translate(25.63 0.204)" fill="#008dd2"/>
@@ -54,128 +55,130 @@ export const Footer = () =>{
                         </g>
                     </g>
                     </svg>
-                    <div className="flex flex-nowrap gap-4 items-center justify-start">
-                        <a href="https://www.blacksof.com/" target="_blank" className=" h-10 xl:h-14 w-10 xl:w-14  grid place-content-center rounded-full  border hover:border-green ">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15.302" height="28.571" viewBox="0 0 15.302 28.571">
-                                <path id="facebook-f-brands_1_" data-name="facebook-f-brands (1)" d="M37.19,16.071l.794-5.171H33.022V7.545a2.585,2.585,0,0,1,2.915-2.794h2.256V.349a27.506,27.506,0,0,0-4-.349C30.1,0,27.432,2.477,27.432,6.96V10.9H22.89v5.171h4.542v12.5h5.59v-12.5Z" transform="translate(-22.89)" fill="#1f2d16" opacity="0.6"/>
-                            </svg>
-                        </a>
-                        <a href="https://www.blacksof.com/" target="_blank" className=" h-10 xl:h-14 w-10 xl:w-14  grid place-content-center rounded-full  border hover:border-green ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="26.178" height="26.172" viewBox="0 0 26.178 26.172">
-                            <path id="instagram-brands_1_" data-name="instagram-brands (1)" d="M13.017,38.2a6.71,6.71,0,1,0,6.71,6.71A6.7,6.7,0,0,0,13.017,38.2Zm0,11.073a4.363,4.363,0,1,1,4.363-4.363,4.37,4.37,0,0,1-4.363,4.363Zm8.55-11.347A1.565,1.565,0,1,1,20,36.361,1.562,1.562,0,0,1,21.567,37.926Zm4.444,1.589A7.746,7.746,0,0,0,23.9,34.031a7.8,7.8,0,0,0-5.484-2.114c-2.161-.123-8.637-.123-10.8,0a7.785,7.785,0,0,0-5.484,2.108A7.771,7.771,0,0,0,.017,39.509c-.123,2.161-.123,8.637,0,10.8a7.746,7.746,0,0,0,2.114,5.484,7.806,7.806,0,0,0,5.484,2.114c2.161.123,8.637.123,10.8,0A7.745,7.745,0,0,0,23.9,55.791a7.8,7.8,0,0,0,2.114-5.484C26.134,48.147,26.134,41.676,26.011,39.515ZM23.22,52.626a4.417,4.417,0,0,1-2.488,2.488c-1.723.683-5.811.526-7.715.526s-6,.152-7.715-.526a4.417,4.417,0,0,1-2.488-2.488c-.683-1.723-.526-5.811-.526-7.715s-.152-6,.526-7.715A4.417,4.417,0,0,1,5.3,34.709c1.723-.683,5.811-.526,7.715-.526s6-.152,7.715.526A4.417,4.417,0,0,1,23.22,37.2c.683,1.723.526,5.811.526,7.715S23.9,50.909,23.22,52.626Z" transform="translate(0.075 -31.825)" fill="#1f2d16"/>
-                        </svg>
-                        </a>
-                        <a href="https://www.blacksof.com/" target="_blank" className=" h-10 xl:h-14 w-10 xl:w-14  grid place-content-center rounded-full  border hover:border-green ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="31.427" height="25.525" viewBox="0 0 31.427 25.525">
-                            <path id="twitter-brands_1_" data-name="twitter-brands (1)" d="M28.2,54.443c.02.279.02.558.02.838,0,8.515-6.481,18.326-18.326,18.326A18.2,18.2,0,0,1,0,70.715a13.325,13.325,0,0,0,1.555.08,12.9,12.9,0,0,0,8-2.752A6.452,6.452,0,0,1,3.53,63.576a8.123,8.123,0,0,0,1.216.1,6.812,6.812,0,0,0,1.7-.219,6.442,6.442,0,0,1-5.165-6.321v-.08a6.487,6.487,0,0,0,2.911.818,6.451,6.451,0,0,1-1.994-8.615A18.308,18.308,0,0,0,15.474,56a7.271,7.271,0,0,1-.16-1.476,6.447,6.447,0,0,1,11.147-4.407,12.681,12.681,0,0,0,4.088-1.555,6.424,6.424,0,0,1-2.832,3.55,12.913,12.913,0,0,0,3.709-1,13.846,13.846,0,0,1-3.23,3.33Z" transform="translate(0 -48.082)" fill="#1f2d16" opacity="0.6"/>
-                        </svg>
-                        </a>
-                        <a href="https://www.blacksof.com/" target="_blank" className=" h-10 xl:h-14 w-10 xl:w-14  grid place-content-center rounded-full  border hover:border-green ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24.475" height="24.475" viewBox="0 0 24.475 24.475">
-                            <path id="Icon_awesome-linkedin-in" data-name="Icon awesome-linkedin-in" d="M5.478,24.475H.4V8.135H5.478ZM2.939,5.906A2.953,2.953,0,1,1,5.877,2.939,2.963,2.963,0,0,1,2.939,5.906ZM24.47,24.475H19.406V16.521c0-1.9-.038-4.327-2.638-4.327-2.638,0-3.042,2.06-3.042,4.19v8.091H8.657V8.135h4.867v2.229h.071a5.332,5.332,0,0,1,4.8-2.639c5.135,0,6.079,3.382,6.079,7.774v8.976Z" transform="translate(0 -0.001)" fill="#1f2d16" opacity="0.6"/>
-                        </svg>
-                        </a>
+            <div className="flex flex-nowrap gap-3 mx-auto justify-center">
+                <a href="https://www.blacksof.com/" target="_blank" className="h-8 w-8  xl:h-10  xl:w-10  grid place-content-center fill-green hover:fill-earth">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 15.302 28.571">
+                    <path id="facebook-f-brands_1_" data-name="facebook-f-brands (1)" d="M37.19,16.071l.794-5.171H33.022V7.545a2.585,2.585,0,0,1,2.915-2.794h2.256V.349a27.506,27.506,0,0,0-4-.349C30.1,0,27.432,2.477,27.432,6.96V10.9H22.89v5.171h4.542v12.5h5.59v-12.5Z" transform="translate(-22.89)" className="fill-inherit" opacity="0.6"/>
+                    </svg>
+                </a>
+                <a href="https://www.blacksof.com/" target="_blank" className="h-8 w-8  xl:h-10  xl:w-10  grid place-content-center fill-green hover:fill-earth">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" className="fill-inherit" viewBox="0 0 26.178 26.172">
+                    <path id="instagram-brands_1_" data-name="instagram-brands (1)" d="M13.017,38.2a6.71,6.71,0,1,0,6.71,6.71A6.7,6.7,0,0,0,13.017,38.2Zm0,11.073a4.363,4.363,0,1,1,4.363-4.363,4.37,4.37,0,0,1-4.363,4.363Zm8.55-11.347A1.565,1.565,0,1,1,20,36.361,1.562,1.562,0,0,1,21.567,37.926Zm4.444,1.589A7.746,7.746,0,0,0,23.9,34.031a7.8,7.8,0,0,0-5.484-2.114c-2.161-.123-8.637-.123-10.8,0a7.785,7.785,0,0,0-5.484,2.108A7.771,7.771,0,0,0,.017,39.509c-.123,2.161-.123,8.637,0,10.8a7.746,7.746,0,0,0,2.114,5.484,7.806,7.806,0,0,0,5.484,2.114c2.161.123,8.637.123,10.8,0A7.745,7.745,0,0,0,23.9,55.791a7.8,7.8,0,0,0,2.114-5.484C26.134,48.147,26.134,41.676,26.011,39.515ZM23.22,52.626a4.417,4.417,0,0,1-2.488,2.488c-1.723.683-5.811.526-7.715.526s-6,.152-7.715-.526a4.417,4.417,0,0,1-2.488-2.488c-.683-1.723-.526-5.811-.526-7.715s-.152-6,.526-7.715A4.417,4.417,0,0,1,5.3,34.709c1.723-.683,5.811-.526,7.715-.526s6-.152,7.715.526A4.417,4.417,0,0,1,23.22,37.2c.683,1.723.526,5.811.526,7.715S23.9,50.909,23.22,52.626Z" transform="translate(0.075 -31.825)"  opacity="0.6" />
+                    </svg>
+                </a>
+                <a href="https://www.blacksof.com/" target="_blank" className="h-8 w-8  xl:h-10  xl:w-10  grid place-content-center fill-green hover:fill-earth">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" className="fill-inherit"   viewBox="0 0 31.427 25.525">
+                        <path id="twitter-brands_1_" data-name="twitter-brands (1)" d="M28.2,54.443c.02.279.02.558.02.838,0,8.515-6.481,18.326-18.326,18.326A18.2,18.2,0,0,1,0,70.715a13.325,13.325,0,0,0,1.555.08,12.9,12.9,0,0,0,8-2.752A6.452,6.452,0,0,1,3.53,63.576a8.123,8.123,0,0,0,1.216.1,6.812,6.812,0,0,0,1.7-.219,6.442,6.442,0,0,1-5.165-6.321v-.08a6.487,6.487,0,0,0,2.911.818,6.451,6.451,0,0,1-1.994-8.615A18.308,18.308,0,0,0,15.474,56a7.271,7.271,0,0,1-.16-1.476,6.447,6.447,0,0,1,11.147-4.407,12.681,12.681,0,0,0,4.088-1.555,6.424,6.424,0,0,1-2.832,3.55,12.913,12.913,0,0,0,3.709-1,13.846,13.846,0,0,1-3.23,3.33Z" transform="translate(0 -48.082)"  opacity="0.6"/>
+                    </svg>
 
-                    </div>
+                </a>
+                <a href="https://www.blacksof.com/" target="_blank" className="h-8 w-8  xl:h-10  xl:w-10  grid place-content-center fill-green hover:fill-earth">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="fill-inherit"   width="24" height="24" viewBox="0 0 24.475 24.475">
+                        <path id="Icon_awesome-linkedin-in" data-name="Icon awesome-linkedin-in" d="M5.478,24.475H.4V8.135H5.478ZM2.939,5.906A2.953,2.953,0,1,1,5.877,2.939,2.963,2.963,0,0,1,2.939,5.906ZM24.47,24.475H19.406V16.521c0-1.9-.038-4.327-2.638-4.327-2.638,0-3.042,2.06-3.042,4.19v8.091H8.657V8.135h4.867v2.229h.071a5.332,5.332,0,0,1,4.8-2.639c5.135,0,6.079,3.382,6.079,7.774v8.976Z" transform="translate(0 -0.001)"  opacity="0.6"/>
+                    </svg>
 
-
-                  </div>
-
-
-                    <div className="flex flex-col flex-nowrap items-start justify-start py-6 ">
-                        <h3 className="font-semibold  text-lg lg:text-xl my-3 uppercase text-brown  ">Quick Links</h3>
-                        <ul className="list-none flex flex-col flex-nowrap gap-2">
-                            <li>
-                                <Link to="/">
-                                    <span className="xl:text-lg">Home</span>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/news" >
-                                    <span className="xl:text-lg">News & More</span>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/articles" >
-                                    <span className="xl:text-lg">Articles</span>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/case-studies" >
-                                    <span className="xl:text-lg">Case Studies</span>
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div className="flex flex-col flex-nowrap items-start justify-start py-6 ">
-                        <h3 className="font-semibold  text-lg lg:text-xl my-3 uppercase  text-brown">Products</h3>
-                        <ul className="list-none flex flex-col flex-nowrap gap-2">
-                            <li>
-                                <Link to="/products/bolus">
-                                    <span   className="xl:text-lg">Bolus</span>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/products/dve" >
-                                    <span   className="xl:text-lg">Digital Vet Endoscope</span>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/products/dte" >
-                                    <span  className="xl:text-lg">Digital Thawing Equipment</span>
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div className="flex flex-col flex-nowrap items-start justify-start py-6">
-                        <h3 className="font-semibold  text-lg lg:text-xl my-3 uppercase text-brown ">OUR CONTACT</h3>
-                        <ul className="list-none flex flex-col flex-nowrap gap-2">
-                            <li>
-                                <div className="flex flex-nowrap gap-5 items-start justify-start">
-                                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" className="my-2 fill-green" viewBox="0 0 512 512"><path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"/></svg>
-                                    <div className="flex flex-col flex-nowrap xl:text-xl ">
-                                        <span>+91 70961 56796</span>
-                                        <span>+91 98251 56796 </span>
-                                        <span>+91 2692 232500</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="flex flex-nowrap gap-5 items-center justify-start">
-                                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" className="my-2 fill-green"   viewBox="0 0 512 512"><path d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"/></svg>
-                                    <span className="xl:text-lg ">info@gavyamgentec.com</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="flex flex-nowrap gap-5 items-start justify-start">
-                                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" className="my-2 fill-green"  viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
-                                    <span className="xl:text-lg">
-                                        Plot#32, Zone-D/4, Phase-1, GIDC Estate, < br /> 
-                                         V.U. Nagar , 388121  <br /> 
-                                        Gujarat, India
-                                    </span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-              </section>
-
-                <section className=" max-w-screen-2xl my-8  mb-12  sm:w-11/12 mx-auto lg:flex flex-wrap items-start justify-between  px-4 gap-10 h-full">
-                    <div className="flex flex-col gap-4 flex-none "> 
-                        <div className="flex flex-nowrap divide-x-2 divide-green">
-                            <Link to="/privacy-policy">
-                                <span className="pr-3 ">Privacy Policy </span>
+                </a>
+            </div>
+            
+            </section>
+            
+            <section className=" md:flex flex-wrap justify-center  xl:gap-8 basis-[36rem] grow shrink">
+                <div className="flex flex-col flex-nowrap items-start justify-start py-6 px-4">
+                    <h3 className="font-semibold text-xl xl:text-2xl my-4 uppercase text-brown">Quick Links</h3>
+                    <ul className="list-none flex flex-col flex-nowrap gap-2">
+                        <li>
+                            <Link to="/">
+                                <span className="xl:text-lg">Home</span>
                             </Link>
-                            <Link to="/terms">
-                                <span className="pl-3 ">Terms & Conditions</span>
+                        </li>
+                        <li>
+                            <Link to="/news" >
+                                <span className="xl:text-lg">News & More</span>
                             </Link>
-                        </div>
-                        <span>Copyright © 2022 Gavyam. All rights reserved</span>
-                    </div> 
-                </section>
+                        </li>
+                        <li>
+                            <Link to="/articles" >
+                                <span className="xl:text-lg">Articles</span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/case-studies" >
+                                <span className="xl:text-lg">Case Studies</span>
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+                <div className="flex flex-col flex-nowrap items-start justify-start py-6 px-4">
+                    <h3 className="font-semibold text-xl xl:text-2xl my-4 uppercase text-brown">Products</h3>
+                    <ul className="list-none flex flex-col flex-nowrap gap-2">
+                        <li>
+                            <Link to="/products/bolus">
+                                <span   className="xl:text-lg">Bolus</span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/products/dve" >
+                                <span   className="xl:text-lg">Digital Vet Endoscope</span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/products/dte" >
+                                <span  className="xl:text-lg">Digital Thawing Equipment</span>
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+                <div className="flex flex-col flex-nowrap items-start justify-start py-6 px-4">
+                    <h3 className="font-semibold text-xl xl:text-2xl my-4 uppercase text-brown">OUR CONTACT</h3>
+                    <ul className="list-none flex flex-col flex-nowrap gap-2">
+                        <li>
+                            <div className="flex flex-nowrap gap-5 items-start justify-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="22" width="22" className="my-2 fill-green" viewBox="0 0 512 512"><path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"/></svg>
+                                <div className="flex flex-col flex-nowrap xl:text-xl ">
+                                    <span>+91 70961 56796</span>
+                                    <span>+91 98251 56796 </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="flex flex-nowrap gap-5 items-center justify-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="22" width="22" className="my-2 fill-green"   viewBox="0 0 512 512"><path d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"/></svg>
+                                <span className="xl:text-lg ">info@gavyamgentec.com</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="flex flex-nowrap gap-5 items-start justify-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="22" width="22" className="my-2 fill-green"  viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+                                <span className="xl:text-lg">
+                                    Plot#32, Zone-D/4, Phase-1, <br /> 
+                                    GIDC Estate, < br /> 
+                                        V.U. Nagar , 388121  <br /> 
+                                    Gujarat, India
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section className="w-11/12 pt-6 pb-12">
+                <div className="flex flex-nowrap divide-x-2 divide-green">
+                    <Link to="/privacy-policy">
+                        <span className="pr-3 xl:text-lg">Privacy Policy</span>
+                    </Link>
+                    <Link to="/terms">
+                        <span className="pl-3 xl:text-lg ">Terms & Conditions</span>
+                    </Link>
+                </div>
+                <span className="xl:text-lg">Copyright © 2022 Gavyam. All rights reserved</span>
+            </section>
+
+        </div>
+
         </footer>
+        
+     
         </>
     )
 }
+

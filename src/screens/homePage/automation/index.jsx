@@ -1,6 +1,15 @@
 
 import { Splide, SplideSlide  } from '@splidejs/react-splide';
-import '@splidejs/react-splide/css';
+import '@splidejs/splide/css';
+import "./index.css"
+
+
+// or other themes
+import '@splidejs/splide/css/skyblue';
+import '@splidejs/splide/css/sea-green';
+
+// or only core styles
+import '@splidejs/splide/css/core';
 import dummy from "./assets/dummy.png"
 
 const Automation =  () =>{
@@ -10,30 +19,52 @@ const Automation =  () =>{
         pagination:true,
         drag:true,
         autoplay:true,
-        interval:1000,
+        interval:2000,
         autoHeight:true,
-        lazyLoad:"sequential",
         arrows:true,
-        padding:0
+        breakpoints:{
+            768:{
+                arrows:false,
+            },
+           
+        }
+       
     }
 
 
     return (
         <>
             <h1 className="blade-title font-bold text-brown font-regular px-4 text-center mb-10">Embrace Automation</h1>
-            <section className='mx-auto max-w-screen-2xl '>
-                <Splide options = { splideOptions }  className="banner-master font-regular ">
-                    <SplideSlide className='flex flex-wrap'>
-                        <div className='w-11/12 mx-auto flex flex-wrap'>
-                            <div className='basis-56  grow shrink grid place-content-center '>
-                                <img src={ dummy } className="object-contain  " alt="" />
-                            </div>
-                            <div className='basis-72 grow shrink flex items-start justify-center flex-col gap-4  '>
-                                <h1 className='blade-title text-earth pb-10 '> Veterinarians</h1>
-                                <span className='font-subtitle  text-green md:w-9/12  '>No more errors! digiGAI offers the opportunity to access a reliable database about herd health and their breeding cycle to the veterinary doctors. With easy-to-use technology, veterinary specialists can gain real-time access to herd health data remotely and on-site.</span>
-                            </div>
-                        </div>
+            <section className='mx-auto  max-w-screen-2xl '>
+                <Splide options = { splideOptions }  className="w-full  xl:w-10/12 mx-auto font-regular ">
+                    <SplideSlide className='flex flex-wrap px-2 md:px-4 w-full  sm:w-11/12 xl:px-14'>
+                           <div className="img-wrapper basis-80 flex-1  h-[24rem] lg:h-[30rem] p-2 lg:p-4 ">
+                               <img src={ dummy } alt="" className="object-cover rounded-2xl  h-full w-full" />
+                           </div>
+                           <div className="text-wrapper basis-80 flex-1 flex p-3 md:p-5 lg:px-10 justify-center flex-col flex-nowrap gap-5">
+                               <h1 className="font-title text-brown font-bold">Veterinarians</h1>
+                               <span className="para-text w-10/12 ">No more errors! digiGAI offers the opportunity to access a reliable database about herd health and their breeding cycle to the veterinary doctors. With easy-to-use technology, veterinary specialists can gain real-time access to herd health data remotely and on-site.</span>
+                           </div>
                     </SplideSlide>
+                    {/* <SplideSlide className='flex flex-wrap px-4  lg:px-14'>
+                           <div className="img-wrapper basis-80 flex-1 h-[24rem] lg:h-[30rem] p-2 lg:p-4">
+                               <img src={ dummy } alt="" className="object-cover rounded-2xl  h-full w-full" />
+                           </div>
+                           <div className="text-wrapper basis-80 flex-1 flex p-5 lg:px-10 justify-center flex-col flex-nowrap gap-5">
+                               <h1 className="font-title text-brown font-bold">Veterinarians</h1>
+                               <span className="para-text w-10/12 ">No more errors! digiGAI offers the opportunity to access a reliable database about herd health and their breeding cycle to the veterinary doctors. With easy-to-use technology, veterinary specialists can gain real-time access to herd health data remotely and on-site.</span>
+                           </div>
+                    </SplideSlide>
+                    <SplideSlide className='flex flex-wrap px-4  lg:px-14'>
+                           <div className="img-wrapper basis-80 flex-1 h-[24rem] lg:h-[30rem] p-2 lg:p-4">
+                               <img src={ dummy } alt="" className="object-cover rounded-2xl  h-full w-full" />
+                           </div>
+                           <div className="text-wrapper basis-80 flex-1 flex p-5 lg:px-10 justify-center flex-col flex-nowrap gap-5">
+                               <h1 className="font-title text-brown font-bold">Veterinarians</h1>
+                               <span className="para-text w-10/12 ">No more errors! digiGAI offers the opportunity to access a reliable database about herd health and their breeding cycle to the veterinary doctors. With easy-to-use technology, veterinary specialists can gain real-time access to herd health data remotely and on-site.</span>
+                           </div>
+                    </SplideSlide>
+                     */}
                 </Splide>
             </section>
         </> 

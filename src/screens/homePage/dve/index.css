@@ -1,0 +1,14 @@
+.dve-master .wrapper {
+    background-image: url(../../../assets/dve/hero.png);
+    background-position:  100% bottom ; 
+    background-size: auto 85%;
+    background-repeat: no-repeat ;
+}
+
+@media screen and  ( max-width:768px) {
+    .dve-master .wrapper{
+        height: 550px;
+        background-position:center 10% ; 
+        background-size: 75% auto;
+    }
+}

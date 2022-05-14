@@ -1,0 +1,6 @@
+.bolus-master .img-wrapper {
+    background-image: url(../../../assets/bolus/bg.png) , url(../../../assets/bolus/hero.png);
+    background-position: bottom right , center calc(100% - 50px);
+    background-size: 90% , min( 350px , 90%) auto ;
+    background-repeat: no-repeat , no-repeat ;
+}
