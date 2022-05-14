@@ -12,7 +12,9 @@ export const Footer = () =>{
         <footer className="bg-gray pt-72" >
         <div className="min-h-[25rem]  max-w-screen-2xl text-green font-regular md:w-11/12 mx-auto flex flex-wrap justify-center row-12">
                 
+            
             <section className="mt-2 mb-6 px-4 mx-auto md:px-10 flex-1">
+                
             <svg  xmlns="http://www.w3.org/2000/svg" width="220.624" className="mt-10 mb-6 mx-auto"  height="45.104" viewBox="0 0 287.624 50.104">
                     <g id="Layer_2" data-name="Layer 2" transform="translate(0.004 0.011)">
                         <g id="Layer_1" data-name="Layer 1" transform="translate(-0.004 -0.011)">
@@ -55,6 +57,8 @@ export const Footer = () =>{
                         </g>
                     </g>
                     </svg>
+            
+            
             <div className="flex flex-nowrap gap-3 mx-auto justify-center">
                 <a href="https://www.blacksof.com/" target="_blank" className="h-8 w-8  xl:h-10  xl:w-10  grid place-content-center fill-green hover:fill-earth">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 15.302 28.571">
