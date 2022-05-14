@@ -8,8 +8,8 @@ export const Footer = () =>{
 
     return (
         <>
-        {/* <FooterHeader /> */}
-        <footer className="bg-gray pt-72" >
+        <FooterHeader />
+        <footer className="bg-gray pt-72 z-10 " >
         <div className="min-h-[25rem]  max-w-screen-2xl text-green font-regular md:w-11/12 mx-auto flex flex-wrap justify-center row-12">
                 
             

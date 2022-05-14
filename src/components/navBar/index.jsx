@@ -2,7 +2,7 @@
 
 export const NavBar = () =>{
     return (
-        <nav className=" flex max-w-screen-2xl mx-auto  items-center justify-around font-regular text-white bg-green ">
+        <nav className=" flex max-w-screen-2xl mx-auto  items-center justify-around font-regular text-white bg-earth sticky top-0 left-0 right-0 z-[100]  ">
             <svg  xmlns="http://www.w3.org/2000/svg" width="220.624" className="mx-10 my-6 grayscale"  height="45.104" viewBox="0 0 287.624 50.104">
             <g id="Layer_2" data-name="Layer 2" transform="translate(0.004 0.011)">
     <g id="Layer_1" data-name="Layer 1" transform="translate(-0.004 -0.011)">

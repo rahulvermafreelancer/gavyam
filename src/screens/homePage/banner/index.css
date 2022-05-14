@@ -3,7 +3,11 @@
     bottom: -30px;
     left: 50%;
     transform: translateX(-50%);
-    height: 90%;
-    width: 60%;
+    height: 98%;
+    width: 75%;
     border-radius: 350px;
+    background-image: url(./hero-bg.svg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 70%;
 }
