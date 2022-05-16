@@ -16,7 +16,7 @@
 
 @layer components {
     .d {
-        @apply border-2 border-green ;
+        @apply border-2 border-earth ;
     }
     .container {
         @apply mx-auto;
