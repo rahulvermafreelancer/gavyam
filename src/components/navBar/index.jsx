@@ -10,7 +10,7 @@ function classNames(...classes) {
 }
 
 export function NavBar() {
-  const [isModalOpen, toggleModal] = useReducer((s) => !s, true);
+  const [isModalOpen, toggleModal] = useReducer((s) => !s, false);
 
   const BurgerBtn = () => {
     return (
@@ -24,9 +24,9 @@ export function NavBar() {
   };
 
   return (
-    <nav className="sticky top-0 left-0 right-0  bg-earth font-regular">
-      <div className="mx-auto px-4 lg:w-11/12 flex flex-nowrap justify-between items-center gap-2">
-        <Link to="/" className="h-24  w-36 lg:w-40 grid place-content-center">
+    <nav className="sticky top-0 left-0 right-0  bg-earth h-20 font-regular z-[100]">
+      <div className="mx-auto max-w-screen-2xl   px-4 lg:w-9/12 flex flex-nowrap justify-between items-center gap-2">
+        <Link to="/" className="h-20  w-36 lg:w-40 grid place-content-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="210.586"
@@ -305,7 +305,7 @@ export function NavBar() {
         <div className=" flex-nowrap items-center justify-end gap-2 flex-1 hidden  lg:flex">
           <NavLink
             className={(navData) =>
-              navData.isActive ? "active-nav navLink " : "navLink"
+              navData.isActive ? "active-nav navLink" : "navLink"
             }
             to="/"
           >
@@ -315,7 +315,7 @@ export function NavBar() {
           </NavLink>
           <Menu as="div" className="relative inline-block text-left">
             <div>
-              <Menu.Button className="inline-flex justify-center items-center  rounded-md  shadow-sm px-4 py-2 bg-earth text-white navLink text-lg xl:text-xl">
+              <Menu.Button className="inline-flex justify-center items-center  rounded-md  shadow-sm px-4 py-2 bg-earth text-white  text-lg xl:text-xl opacity-70 hover:opacity-100">
                 <span>Products</span>
                 <ChevronDownIcon
                   className="-mr-1 ml-2 h-5 w-5"
@@ -386,7 +386,7 @@ export function NavBar() {
           </Menu>
           <Menu as="div" className="relative inline-block text-left">
             <div>
-              <Menu.Button className="inline-flex justify-center items-center  rounded-md  shadow-sm px-4 py-2 bg-earth text-white text-lg xl:text-xl navLink ">
+              <Menu.Button className="inline-flex justify-center items-center  rounded-md  shadow-sm px-4 py-2 bg-earth text-white text-lg xl:text-xl opacity-70 hover:opacity-100">
                 <span>About Us</span>
                 <ChevronDownIcon
                   className="-mr-1 ml-2 h-5 w-5"
@@ -479,7 +479,7 @@ export function NavBar() {
         </div>
         <BurgerBtn />
       </div>
-      <MobileModal isOpen={isModalOpen} />
+      <MobileModal isOpen={isModalOpen} handler={toggleModal} />
     </nav>
   );
 }

@@ -1,0 +1,12 @@
+footer {
+    background-image: url(./icons/bg.svg);
+    background-position:  bottom -80px  right 10px  ;
+    background-size:  400px auto ;
+    background-repeat: no-repeat ;
+}
+
+@media ( max-width:768px){
+    footer {
+        background-image: none;
+    }
+}

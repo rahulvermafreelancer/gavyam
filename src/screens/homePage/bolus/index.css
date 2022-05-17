@@ -1,6 +1,12 @@
 .bolus-master .img-wrapper {
-    background-image: url(../../../assets/bolus/bg.png) , url(../../../assets/bolus/hero.png) ;
-    background-position: bottom right , center calc(100% - 50px) ;
-    background-size: 90% , min( 350px , 90%) auto   ;
+    background-image:   url(../../../assets/bolus/hero.png), url(../../../assets/bolus/bg.png) ;
+    background-position:  right 40% bottom max( 4vw , 30px ) ,bottom right ;
+    background-size:  auto min( 100% , 350px ), 80% auto;
     background-repeat: no-repeat , no-repeat ;
+}
+.bolus-bg-wrapper{
+    background-image: linear-gradient( to bottom , #E1E4E0 , #E1E4E0  ) ;
+    background-size: 100% 25% ;
+    background-position:  left top ;
+    background-repeat: no-repeat;
 }

@@ -10,15 +10,22 @@ import Transforming from "./transforming";
 export const HomePage = () => {
   return (
     <>
-      {/* <Banner />
-        <Transforming />
-        <Bolus />  
-        <DVE /> 
-        <DTE /> 
-        <CattleManegement /> 
-        <Automation /> 
+      {/* 
+        
+        
+         
+      
+       
+        
         <Partners />   */}
-      this is homepage
+      <Banner />
+      <Transforming />
+      <Bolus />
+      <DTE />
+      <DVE />
+      <CattleManegement />
+      <Automation />
+      <Partners />
     </>
   );
 };

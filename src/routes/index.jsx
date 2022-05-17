@@ -1,13 +1,14 @@
 import { Outlet } from "react-router-dom";
 import { HomePage, DemoPage, ErrorPage } from "../screens";
 
-import { NavBar } from "../components";
+import { Footer, NavBar } from "../components";
 
 const ViewWithNavAndFooter = () => {
   return (
     <>
       <NavBar />
       <Outlet />
+      <Footer />
     </>
   );
 };

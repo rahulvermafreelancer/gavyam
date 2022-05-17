@@ -1,14 +1,32 @@
-.dve-master .wrapper {
-    background-image: url(../../../assets/dve/hero.png);
-    background-position:  100% bottom ; 
-    background-size: auto 85%;
-    background-repeat: no-repeat ;
-}
 
-@media screen and  ( max-width:768px) {
-    .dve-master .wrapper{
-        height: 550px;
-        background-position:center 10% ; 
-        background-size: 75% auto;
+
+.dve-master::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 65% ;
+    background-image: url(../../../assets/dve/hero.png);
+    background-size: contain;
+    background-position: right -40px  bottom -30px ;
+    background-repeat: no-repeat;
+}
+@media screen and  ( max-width:900px) {
+    .dve-master::after{
+        top: 100%;
+        width: 100%;  
+        height: 400px;
+        background-size: contain;
+        background-position: center center ;
+        background-color: #E1E4E0;
+        z-index: -10;
+        border-bottom-left-radius: 12px !important;
+        border-bottom-right-radius: 12px !important;
+    }
+    .dve-master {
+        margin-bottom: 400px;
+        border-bottom-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
     }
 }

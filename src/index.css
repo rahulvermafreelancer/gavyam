@@ -31,10 +31,10 @@
         @apply  my-10 md:my-14 lg:my-20 ;
     }
     .font-title {
-        @apply text-3xl md:text-3xl lg:text-4xl 2xl:text-5xl font-semibold tracking-wider ;
+        @apply text-4xl lg:text-5xl 2xl:text-5xl font-semibold tracking-wider ;
     }
     .font-subtitle{
-        @apply text-xl  lg:text-2xl 2xl:text-3xl  ;
+        @apply text-2xl xl:text-3xl  ;
     }
     .para-text {
         @apply text-base lg:text-lg 2xl:text-xl;
