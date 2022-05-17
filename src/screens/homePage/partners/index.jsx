@@ -2,7 +2,7 @@ import demo1 from "./assets/demo1.svg";
 
 const Partners = () => {
   return (
-    <section className="my-20 xl:my-28">
+    <section className="py-20 xl:py-28 min-h-[45rem] grid place-content-center">
       <h1 className=" blade-title font-bold text-brown font-regular px-4 text-center mb-10">
         Our Partners
       </h1>

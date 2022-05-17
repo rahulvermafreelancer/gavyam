@@ -5,9 +5,10 @@ import FooterHeader from "./footerHeader";
 export const Footer = () => {
   return (
     <>
+      <FooterHeader />
       <footer className="bg-gray pt-72 z-10 ">
-        <div className="min-h-[25rem]  max-w-screen-2xl text-green font-regular lg:w-11/12 mx-auto flex flex-wrap justify-center">
-          <section className="mt-2 basis-[10rem] mb-6 px-2 mx-auto md:px-4  ">
+        <div className="min-h-[25rem] max-w-screen-2xl text-green font-regular  mx-auto flex flex-wrap justify-between">
+          <section className="mt-2 basis-[2rem] mb-6 px-2  md:px-4  mx-4 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="180.624"
@@ -358,7 +359,7 @@ export const Footer = () => {
             </div>
           </section>
 
-          <section className=" md:flex flex-wrap justify-center gap-4 lg:gap-16 basis-[70rem] shrink">
+          <section className=" md:flex flex-wrap justify-center gap-4 lg:gap-16 basis-[75rem] shrink">
             <div className="flex flex-col flex-nowrap items-start justify-start py-2  px-4">
               <h3 className="font-semibold text-xl xl:text-2xl my-4 uppercase text-brown">
                 Quick Links
