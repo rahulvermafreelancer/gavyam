@@ -1,6 +1,6 @@
 const SubBanner = () => {
   return (
-    <section className=" mx-auto  bg-gray px-4 py-28 lg:pt-44 min-h-[20rem] text-earth font-regular ">
+    <section className=" mx-auto  bg-gray px-4 py-28 pt-64 lg:pt-72 min-h-[20rem] text-earth font-regular ">
       <section className=" max-w-screen-lg mx-auto grid place-content-center gap-4 xl:gap-6 text-center ">
         <h1 className=" font-title font-bold text-brown">
           We are Transforming the Dairy Industry!

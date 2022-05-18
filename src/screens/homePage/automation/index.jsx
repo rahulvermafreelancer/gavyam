@@ -22,7 +22,7 @@ const Automation = () => {
   };
 
   return (
-    <section className="bg-gray min-h-[10rem]  py-40">
+    <section className="bg-gray min-h-[10rem]  py-40 automation-master ">
       <h1 className="blade-title font-bold text-brown font-regular px-4 text-center pb-24">
         Embrace Automation
       </h1>

@@ -25,7 +25,7 @@
         @apply  py-2 px-8 border-2 border-white rounded-full  text-lg transition-colors duration-300 lg:text-xl font-bold hover:no-underline  ;
     }
     .blade-title {
-        @apply  text-3xl md:text-3xl lg:text-4xl 2xl:text-5xl  ;
+        @apply  text-3xl  lg:text-5xl 2xl:text-6xl  ;
     }
     .blade-y-margin {
         @apply  my-10 md:my-14 lg:my-20 ;
