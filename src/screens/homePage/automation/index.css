@@ -1,41 +1,44 @@
- .automation-master .splide {
-    padding: 10px 0 ;
+.automation-master .splide {
+  padding: 10px 0;
 }
- .automation-master .splide__pagination {
-    top: 100.5% ;
+.automation-master .splide__pagination {
+  top: 100.5%;
 }
- .automation-master .splide__arrow--prev {
-    transform: translateX(-190%) ;
+.automation-master .splide__arrow--prev {
+  transform: translateX(-190%);
 }
-  .automation-master .splide__arrow--next {
-    transform: translateX(190%) ;
+.automation-master .splide__arrow--next {
+  transform: translateX(190%);
 }
- .automation-master .splide__arrows   button {
-    height: 40px;
-    width: 40px ;
-    border: 3px solid #BE6731;
-    display: grid;
-    place-content: center ;
+.automation-master .splide__arrows button {
+  height: 40px;
+  width: 40px;
+  border: 3px solid #be6731;
+  display: grid;
+  place-content: center;
 }
- .automation-master .splide__arrows svg {
-    fill: #BE6731;
+.automation-master .splide__arrows svg {
+  fill: #be6731;
 }
- .automation-master .splide__arrows button:hover {
-    background-color:#BE6731 ;
-    outline: 2px solid #BE6731;
-    outline-offset: 3px ;
+.automation-master .splide__arrows button:hover {
+  background-color: #be6731;
+  outline: 2px solid #be6731;
+  outline-offset: 3px;
 }
- .automation-master .splide__arrows button:hover svg{
-    fill:  white ;
+.automation-master .splide__arrows button:hover svg {
+  fill: white;
 }
- .automation-master .splide__pagination {
-    margin-top: 20px !important;
+.automation-master .splide__pagination {
+  margin-top: 20px !important;
 }
- .automation-master .splide__pagination li button {
-    background-color:  #be673150 ;
-    height: 10px;
-    width: 10px;
+.automation-master .splide__pagination li button {
+  background-color: #be673150;
+  height: 10px;
+  width: 10px;
 }
- .automation-master .splide__pagination li .is-active {
-    background-color:  #7f4521;
+.automation-master .splide__pagination li .is-active {
+  background-color: #7f4521;
+}
+coursal-bg-image {
+  background-image: url(../../../assets/coursal/bg.png);
 }

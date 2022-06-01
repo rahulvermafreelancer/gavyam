@@ -1,5 +1,13 @@
 import { Outlet } from "react-router-dom";
-import { HomePage, DemoPage, ErrorPage } from "../screens";
+import {
+  HomePage,
+  DemoPage,
+  ErrorPage,
+  Bolus,
+  Dte,
+  Dve,
+  About
+} from "../screens";
 
 import { Footer, NavBar } from "../components";
 
@@ -17,12 +25,12 @@ const paths = () => {
   return [
     {
       path: "/products",
+      element: <ViewWithNavAndFooter />,
       children: [
-        { path: "", element: <DemoPage /> },
-        { path: "bolus", element: <DemoPage /> },
-        { path: "dve", element: <DemoPage /> },
-        { path: "dte", element: <DemoPage /> },
-      ],
+        { path: "bolus", element: <Bolus /> },
+        { path: "dve", element: <Dve /> },
+        { path: "dte", element: <Dte /> }
+      ]
     },
     {
       path: "/",
@@ -30,14 +38,14 @@ const paths = () => {
       children: [
         { path: "", element: <HomePage /> },
         { path: "contact", element: <DemoPage /> },
-        { path: "about", element: <DemoPage /> },
-        { path: "resources", element: <DemoPage /> },
-      ],
+        { path: "about", element: <About /> },
+        { path: "resources", element: <DemoPage /> }
+      ]
     },
     {
       path: "*",
-      element: <ErrorPage />,
-    },
+      element: <ErrorPage />
+    }
   ];
 };
 

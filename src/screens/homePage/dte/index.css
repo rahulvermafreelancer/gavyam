@@ -1,13 +1,13 @@
 .dte-master .img-wrapper {
-    background-image: url(../../../assets/dte/hero.png) , url(../../../assets/dte/bg.png);
-    background-position:center bottom 10px  ,  bottom center ;
-    background-size: auto 95% , 90% auto ;
-    background-repeat: no-repeat , no-repeat ;
+  background-image: url(../../../assets/dte/hero.png),
+    url(../../../assets/dte/bg.png);
+  background-position: center bottom 10px, bottom center;
+  background-size: auto 95%, 90% auto;
+  background-repeat: no-repeat, no-repeat;
 }
 .dte-bg-wrapper {
-    background-image: linear-gradient( to bottom , #E1E4E0 , #E1E4E0  ) ;
-    background-size: 100% 38% ;
-    background-position:  left bottom -100px  ;
-    background-repeat: no-repeat;
-
+  background-image: linear-gradient(to bottom, #e1e4e0, #e1e4e0);
+  background-size: 100% 38%;
+  background-position: left bottom -100px;
+  background-repeat: no-repeat;
 }

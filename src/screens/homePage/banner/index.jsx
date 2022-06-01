@@ -19,42 +19,43 @@ const Banner = () => {
     direction: "ttb",
     height: "100%",
     arrows: false,
-    paginationDirection: "ttb",
+    paginationDirection: "ttb"
   };
 
   return (
     <section className=" bg-earth font-regular ">
       <section className=" w-11/12  d 2xl:w-10/12 mx-auto  pt-6 flex flex-wrap  items-center  justify-around  gap-x-10 banner-master  overflow-visible">
-        <div className=" text-wrapper  flex-1 basis-[30rem] flex  flex-col flex-nowrap items-start justify-around gap-3 pt-10 ">
+        <div className=" text-wrapper  flex-1 basis-[30rem] flex  flex-col flex-nowrap items-start justify-around gap-3 pt-2 ">
           <div className="bg-wrapper flex  flex-col flex-nowrap items-start justify-around gap-3 md:pl-16 pb-2 ">
-            <h1 className="blade-title text-brown font-extrabold md:w-10/12 ">
+            <h1 className="blade-title md:w-10/12  heading-text">
               INCREASE DAIRY PRODUCTION,
             </h1>
             <h1 className="blade-title text-white font-extrabold md:w-10/12 ">
               WITHOUT RISK OR ERRORS!
             </h1>
-            <span className="font-subtitle  text-white md:w-8/12 py-3 ">
+            <span className="font-subtitle para-text text-white md:w-8/12 py-3 ">
               Digitizing the Herd Monitoring and Breeding System to Enhance
               Cattle Management/ Animal Welfare / Herd Efficiency / Farm
               Productivity
             </span>
           </div>
           <div className="my-9 md:pl-16 ">
-            <MasterBtn bgColor="brown" text="Read More" />
+            <MasterBtn bgColor="brown" text="About Us" />
           </div>
         </div>
-        <div className=" mx-3 w-11/12   img-wrapper grow-0 shrink basis-[40rem] flex items-start md:items-end justify-center px-4 overflow-x-hidden ">
+
+        <div className=" mx-3 w-11/12 cuatom-banner img-wrapper grow-0 shrink basis-[40rem] flex items-start md:items-end justify-center px-4 overflow-x-hidden ">
           <Splide
             options={splideOptions}
             className="font-regular w-9/12  md:w-10/12 2xl:w-9/12 md:mx-auto max-h-min rounded-3xl max-w-screen-2xl mx-2 banner-splide h-[30rem] md:h-[45rem]   2xl:h-[55rem]"
           >
-            <SplideSlide className="">
+            <SplideSlide className="custom-banner">
               <img src={dummy} alt="banner" />
             </SplideSlide>
-            <SplideSlide className="">
+            <SplideSlide className="custom-banner">
               <img src={dummy} alt="banner" />
             </SplideSlide>
-            <SplideSlide className="">
+            <SplideSlide className="custom-banner">
               <img src={dummy} alt="banner" />
             </SplideSlide>
           </Splide>

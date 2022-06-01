@@ -1,5 +1,4 @@
 import "./index.css";
-import dandi from "../../../assets/dve/hero.png";
 import { MasterBtn } from "../../../components";
 const DVE = () => {
   return (

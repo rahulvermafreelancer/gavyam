@@ -409,7 +409,7 @@ export function NavBar() {
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        href="/about/mission"
+                        href="/about"
                         className={classNames(
                           active
                             ? "bg-gray-100 text-gray-900"
@@ -424,7 +424,7 @@ export function NavBar() {
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        href="/about/features"
+                        href="/about"
                         className={classNames(
                           active
                             ? "bg-gray-100 text-gray-900"
@@ -439,7 +439,7 @@ export function NavBar() {
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        href="/about/vision"
+                        href="/about"
                         className={classNames(
                           active
                             ? "bg-gray-100 text-gray-900"

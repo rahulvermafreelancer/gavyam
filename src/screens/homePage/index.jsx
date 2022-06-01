@@ -10,14 +10,6 @@ import Transforming from "./transforming";
 export const HomePage = () => {
   return (
     <>
-      {/* 
-        
-        
-         
-      
-       
-        
-        <Partners />   */}
       <Banner />
       <Transforming />
       <Bolus />

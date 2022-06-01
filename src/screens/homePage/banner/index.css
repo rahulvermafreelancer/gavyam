@@ -1,69 +1,80 @@
 .corousel_wrapper {
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 98%;
-    width: 75%;
-    border-radius: 350px;
-    background-image: url(./hero-bg.svg) ;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 70%;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 98%;
+  width: 75%;
+  border-radius: 350px;
+  background-image: url(./hero-bg.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 70%;
 }
 
-.banner-master .text-wrapper  .bg-wrapper {
-    position: relative;
+.banner-master .text-wrapper .bg-wrapper {
+  position: relative;
 }
 .banner-master .text-wrapper .bg-wrapper::after {
-    content: "";
-    height: 150%;
-    width:min( 110% , 900px );
-    background-color: rgba(255, 255, 255, 0.1);
-    position: absolute;
-    top: -50%;
-    left: -5%;
-    border-bottom-right-radius: 15vw;
+  content: "";
+  height: 150%;
+  width: min(110%, 900px);
+  background-color: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  top: -50%;
+  left: -5%;
+  border-bottom-right-radius: 15vw;
 }
 
 .banner-master .img-wrapper {
-    transform:  translateY(150px );
-    z-index: 1000;
+  transform: translateY(150px);
+  z-index: 1000;
 }
-.img-wrapper .banner-splide{
-    z-index: 100
+.img-wrapper .banner-splide {
+  z-index: 100;
 }
 .banner-master .splide {
-    padding: 10px 0 ;
+  padding: 10px 0;
 }
- .banner-master .splide__pagination {
-    left: 105.5% ;
+.banner-master .splide__pagination {
+  left: 105.5%;
 }
 
-
- .banner-master .splide__pagination li button {
-    background-color:  rgba(255, 255, 255, 0.447) ;
-    height: 15px;
-    width: 15px;
-    margin: 8px ;
+.banner-master .splide__pagination li button {
+  background-color: rgba(255, 255, 255, 0.447);
+  height: 15px;
+  width: 15px;
+  margin: 8px;
 }
- .banner-master .splide__pagination li .is-active {
-    background-color:  #fff;
+.banner-master .splide__pagination li .is-active {
+  background-color: #fff;
 }
-@media screen and ( max-width:1024px){
-    .corousel_wrapper {
-        bottom: 10px ;
-    }
-    .banner_text_wrapper{
-        padding-top: 100px !important
+@media screen and (max-width: 1024px) {
+  .corousel_wrapper {
+    bottom: 10px;
+  }
+  .banner_text_wrapper {
+    padding-top: 100px !important
         ;
-    }
-  
-    .banner-master .splide__pagination li button {
-        background-color:  rgba(255, 255, 255, 0.447) ;
-        height: 10px;
-        width: 10px;
-        margin: 5px ;
-    }
-}
+  }
 
+  .banner-master .splide__pagination li button {
+    background-color: rgba(255, 255, 255, 0.447);
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+  }
+}
+.custom-banner {
+  padding-top: 40%;
+}
+.heading-text {
+  color: #b55219;
+  font-size: 68px;
+  font-weight: 900;
+}
+.para-text {
+  font-size: 44px;
+  color: #fff;
+  opacity: 0.7;
+}

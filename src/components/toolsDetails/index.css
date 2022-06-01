@@ -1,0 +1,18 @@
+.tools-details-main {
+  background-color: #e5e7e3;
+  padding: 10%;
+}
+.tools-title {
+  color: #b55219;
+  font-size: 58px;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.image-section-tools {
+  justify-content: center;
+  padding-top: 5%;
+  width: 80%;
+  margin: auto;
+}
