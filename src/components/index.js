@@ -6,3 +6,4 @@ export * from "./DetailContainer";
 export * from "./imageSection";
 export * from './downloadGuid'
 export * from './toolsDetails'
+export * from './coursal'

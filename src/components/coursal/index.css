@@ -1,0 +1,75 @@
+.slider-card-main {
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.slider-image-section {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+.shop-section {
+  background-color: #ffede2;
+  margin-top: 15px;
+  width: 15%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10%;
+}
+.shop-text {
+  color: #b55219;
+  font-size: 22px;
+  font-weight: 600;
+}
+.card-slick-heading {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+.heading-card-slider {
+  color: #b55219;
+  font-size: 34px;
+  font-weight: 600;
+}
+.slider-card-para {
+  font-size: 24px;
+  padding-top: 8%;
+}
+.writer-main-card {
+  margin-top: 15px;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.writer-card-image {
+  width: 15%;
+}
+.writer-name-text-card {
+  padding-left: 15px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.sliderclass {
+  width: 95%;
+  margin: 0 auto;
+}
+.title-section {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.slider-head-para-text {
+  font-size: 34px;
+  font-weight: 600;
+}
+.arrows-section {
+  display: flex;
+  flex-direction: row;
+}
+.left-arrow-section {
+  margin-right: 10px;
+}

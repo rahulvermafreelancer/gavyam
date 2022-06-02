@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import { Coursal } from "../../components";
 
 export const Resource = () => {
   return (
@@ -50,6 +51,10 @@ export const Resource = () => {
           </div>
         </div>
       </div>
+
+      <Coursal heading="News & More" />
+      <Coursal heading="Articles" />
+      <Coursal heading="Case studies" />
     </>
   );
 };
