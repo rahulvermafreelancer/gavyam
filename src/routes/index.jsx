@@ -6,7 +6,9 @@ import {
   Bolus,
   Dte,
   Dve,
-  About
+  About,
+  Contact,
+  Career
 } from "../screens";
 
 import { Footer, NavBar } from "../components";
@@ -37,9 +39,10 @@ const paths = () => {
       element: <ViewWithNavAndFooter />,
       children: [
         { path: "", element: <HomePage /> },
-        { path: "contact", element: <DemoPage /> },
+        { path: "contact", element: <Contact /> },
         { path: "about", element: <About /> },
-        { path: "resources", element: <DemoPage /> }
+        { path: "resources", element: <DemoPage /> },
+        { path: "career", element: <Career /> }
       ]
     },
     {
