@@ -8,7 +8,8 @@ import {
   Dve,
   About,
   Contact,
-  Career
+  Career,
+  Resource
 } from "../screens";
 
 import { Footer, NavBar } from "../components";
@@ -41,7 +42,7 @@ const paths = () => {
         { path: "", element: <HomePage /> },
         { path: "contact", element: <Contact /> },
         { path: "about", element: <About /> },
-        { path: "resources", element: <DemoPage /> },
+        { path: "resources", element: <Resource /> },
         { path: "career", element: <Career /> }
       ]
     },

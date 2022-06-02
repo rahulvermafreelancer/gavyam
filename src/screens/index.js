@@ -7,3 +7,4 @@ export * from "./Dve";
 export * from "./About";
 export * from "./contact";
 export * from "./career";
+export * from './resources'
