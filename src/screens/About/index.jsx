@@ -4,6 +4,7 @@ import LeftImage from "../../assets/about/f1.png";
 import RightOne from "../../assets/about/f2.png";
 import RightTwo from "../../assets/about/f3.png";
 import { Value } from "./Value";
+import { CoreTeam } from "./CoreTeam";
 
 export const About = () => {
   return (
@@ -70,6 +71,7 @@ export const About = () => {
         </div>
       </div>
       <Value />
+      <CoreTeam />
     </>
   );
 };
