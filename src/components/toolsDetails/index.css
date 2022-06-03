@@ -4,9 +4,10 @@
 }
 .tools-title {
   color: #b55219;
-  font-size: 58px;
+  font-size: 3.7vw;
   text-align: center;
   width: 80%;
+  max-width: 800px;
   margin: 0 auto;
 }
 .image-section-tools {
@@ -16,4 +17,10 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+@media only screen and (max-width: 750px) {
+ .tools-title{
+   width: 100%;
+   max-width: 500px;
+ }
 }

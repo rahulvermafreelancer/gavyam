@@ -1,12 +1,11 @@
 .download-main {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 10%;
 }
 .download-title {
   color: #b55219;
-  font-size: 58px;
-  font-weight: bold;
+  font-size: 3.7vw;
   text-align: center;
 }
 .download-div {
@@ -14,17 +13,15 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 15px;
-  width: 40%;
+  padding: 1.5%;
+  width: 25%;
   border-radius: 40px;
   margin: 0 auto;
   align-items: center;
-  margin-top: 3%;
+  margin-top: 1%;
 }
 .download-para-text {
   color: #b55219;
-  font-size: 22px;
-  font-weight: 600;
-  opacity: 0.8;
-  padding-right: 10px;
+  font-size: 1.4vw;
+  padding-right: 5%;
 }

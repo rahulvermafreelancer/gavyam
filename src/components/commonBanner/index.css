@@ -9,7 +9,7 @@
   margin: 0 auto;
 }
 .page-section-text {
-  font-size: 18px;
+  font-size: 1.1vw;
   padding-right: 1%;
 }
 .main-section {
@@ -18,7 +18,7 @@
   background-position: bottom right;
 }
 .main-section-title {
-  font-size: 68px;
+  font-size: 4.4vw;
   text-align: center;
 }
 .color-bar {
@@ -29,9 +29,8 @@
   border-radius: 10px;
 }
 .para-text-desc {
-  font-size: 24px;
+  font-size: 1.5vw;
   text-align: center;
   padding-top: 1.5%;
 }
-@media only screen and (max-width: 750px) {
-}
+

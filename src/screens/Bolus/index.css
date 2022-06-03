@@ -1,54 +1,86 @@
-.dashboard-main {
+.dashborad-main {
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 .dashboard-heading-section {
-  padding: 15px;
   width: 80%;
   margin: 0 auto;
-  padding-top: 10%;
+  margin-top: 10%;
 }
 .dashboard-title {
   color: #b55219;
-  font-size: 58px;
-  font-weight: bold;
+  font-size: 3.7vw;
   width: 60%;
+  max-width: 500px;
 }
 .dasboard-para {
   color: #1f2d16;
-  width: 70%;
+  width: 60%;
+  max-width: 750px;
   margin: 0 auto;
-  padding-top: 5%;
-  font-size: 28px;
-  opacity: 0.7;
+  font-size: 1.8vw;
+}
+@media only screen and (max-width: 750px) {
+  .dashboard-title {
+    width: 100%;
+  }
+  .dasboard-para {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .dashboard-title {
+    width: 80%;
+  }
+  .dasboard-para {
+    width: 90%;
+  }
 }
 .desh-section-one {
-  /* background-image: url(../../assets//bolus/dashboard-bg.svg);    */
+  background-image: url(../../assets//bolus/dashboard-bg.svg);
   background-repeat: no-repeat no-repeat;
-  background-size: 20%;
+  background-size: 30%;
+  background-position: left center;
   display: flex;
   justify-content: right;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 .desh-section-two {
-  /* background-image: url(../../assets//bolus/dashboard-bg.svg);    */
+  background-image: url(../../assets//bolus/dashboard-bg.svg);
   background-repeat: no-repeat no-repeat;
-  background-size: 20%;
+  background-size: 30%;
+  background-position: right bottom;
   display: flex;
   justify-content: left;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 .management-section-main {
   background-color: #e5e7e3;
   padding-bottom: 15%;
 }
 .management-head {
-  width: 60%;
-  padding: 5%;
+  width: 50%;
+  max-width: 1080px;
   margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding-top: 10%;
+}
+@media only screen and (max-width: 1280px) {
+  .management-head {
+    width: 80%;
+    max-width: 700px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .management-head {
+    width: 100%;
+    padding: 5%;
+  }
 }
 .heading-management {
   color: #b55219;
-  font-size: 58px;
-  font-weight: bold;
+  font-size: 3.7vw;
   text-align: center;
 }
 .bolus-management-card-main {
@@ -63,24 +95,38 @@
   background-color: #ffffff;
   margin: 1%;
   border-radius: 25px;
+  margin-top: 5%;
+}
+.text-area-card-management {
+  padding: 10%;
 }
 .management-title {
-  font-size: 28px;
-  font-weight: bold;
-  margin-top: 10%;
-  margin-left: 5%;
+  font-size: 1.8vw;
+  padding-left: 5%;
 }
 .card-icons {
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: center;
   margin-top: 10%;
-  margin-left: 5%;
+  margin-left: 10%;
+  background-image: url(../../assets/bolus/circle.svg);
+  background-repeat: no-repeat no-repeat;
+  background-position: left center;
 }
 .card-para {
-  margin-top: 5%;
+  margin-top: 10%;
   margin-left: 5%;
-  font-size: 24px;
-  opacity: 0.7;
-  padding-bottom: 10%;
+  font-size: 1.5vw;
+  padding-bottom: 5%;
+}
+@media only screen and (max-width: 1080px) {
+  .bolus-management-card {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .bolus-management-card {
+    width: 60%;
+  }
 }

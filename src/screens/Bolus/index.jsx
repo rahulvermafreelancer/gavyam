@@ -82,10 +82,11 @@ export const Bolus = () => {
         topImage={TopImage}
         downImage={DownImage}
       />
-      <div className="dashboard-main">
+
+      <div className="dashborad-main">
         <div className="dashboard-heading-section">
           <h1 className="dashboard-title font-regular font-bold">Cattle Management Portal</h1>
-          <p className="dasboard-para">
+          <p className="dasboard-para font-regular">
             A one-stop portal that helps dairy farmers to manage their cattle's
             health data efficiently at any time from anywhere.
           </p>
@@ -97,9 +98,11 @@ export const Bolus = () => {
           <img src={Desktwo} alt="desk-1" width="60%" />
         </div>
       </div>
+
+
       <div className="management-section-main">
         <div className="management-head">
-          <h1 className="heading-management">
+          <h1 className="heading-management font-regular font-bold">
             The Future of Cattle Health Management is here!
           </h1>
         </div>
@@ -109,9 +112,9 @@ export const Bolus = () => {
               <div className="card-icons">
                 <img src={item.image} alt="icon"/>
               </div>
-              <div>
-                <h1 className="management-title">{item.title}</h1>
-                <p className="card-para">{item.paratext}</p>
+              <div className="text-area-card-management">
+                <h1 className="management-title font-regular font-bold">{item.title}</h1>
+                <p className="card-para font-regular">{item.paratext}</p>
               </div>
             </div>
           ))}
