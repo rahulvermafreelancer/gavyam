@@ -1,8 +1,6 @@
 import { Outlet } from "react-router-dom";
 import {
   HomePage,
-  DemoPage,
-  ErrorPage,
   Bolus,
   Dte,
   Dve,
@@ -45,10 +43,6 @@ const paths = () => {
         { path: "resources", element: <Resource /> },
         { path: "career", element: <Career /> }
       ]
-    },
-    {
-      path: "*",
-      element: <ErrorPage />
     }
   ];
 };

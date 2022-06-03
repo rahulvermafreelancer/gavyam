@@ -84,7 +84,7 @@ export const Bolus = () => {
       />
       <div className="dashboard-main">
         <div className="dashboard-heading-section">
-          <h1 className="dashboard-title">Cattle Management Portal</h1>
+          <h1 className="dashboard-title font-regular font-bold">Cattle Management Portal</h1>
           <p className="dasboard-para">
             A one-stop portal that helps dairy farmers to manage their cattle's
             health data efficiently at any time from anywhere.

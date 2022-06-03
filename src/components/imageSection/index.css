@@ -1,19 +1,21 @@
 .image-section-main {
-  margin-top: 10%;
+  margin-top: 15%;
 }
 .image-section-title {
   color: #b55219;
   font-size: 58px;
-  font-weight: bold;
   text-align: center;
 }
-.image-section-para{
-    color: #1F2D16;
-    font-size: 28px;
-    width: 60%;
-    text-align: center;
-    margin: 0 auto;
-    opacity: 0.7;
-    margin-top: 2%;
-    padding-bottom: 2%;
+.image-section-para {
+  color: #1f2d16;
+  font-size: 28px;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+@media only screen and (max-width: 750px) {
+  .image-section-para {
+    width: 90%;
+  }
 }

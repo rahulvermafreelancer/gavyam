@@ -23,9 +23,9 @@ const Banner = () => {
   };
 
   return (
-    <section className=" bg-earth font-regular ">
+    <section className=" bg-earth font-regular">
       <section className=" w-11/12  d 2xl:w-10/12 mx-auto  pt-6 flex flex-wrap  items-center  justify-around  gap-x-10 banner-master  overflow-visible">
-        <div className=" text-wrapper  flex-1 basis-[30rem] flex  flex-col flex-nowrap items-start justify-around gap-3 pt-2 ">
+        <div className="text-wrapper  flex-1 basis-[30rem] flex  flex-col flex-nowrap items-start justify-around gap-4 pt-1 ">
           <div className="bg-wrapper flex  flex-col flex-nowrap items-start justify-around gap-3 md:pl-16 pb-2 ">
             <h1 className="blade-title md:w-10/12  heading-text">
               INCREASE DAIRY PRODUCTION,

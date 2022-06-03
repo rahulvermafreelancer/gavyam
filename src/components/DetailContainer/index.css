@@ -8,23 +8,43 @@
 .title-text-details {
   color: #b55219;
   font-size: 58px;
-  font-weight: bold;
-  width: 50%;
+  width: 60%;
   padding-left: 5%;
-  padding-top: 3%;
+  margin-top: 3%;
 }
 .bold-para-details {
   color: #1f2d16;
   font-size: 28px;
-  font-weight: 600;
   width: 50%;
   margin: 0 auto;
-  padding-top: 5%;
+  margin-top: 5%;
 }
 .subpara-details {
   color: #1f2d16;
   font-size: 28px;
   width: 50%;
-  padding-top: 2%;
   margin: 0 auto;
+  margin-top: 3%;
+}
+@media only screen and (max-width: 1280px) {
+  .title-text-details {
+    width: 70%;
+  }
+  .bold-para-details {
+    width: 65%;
+  }
+  .subpara-details {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .title-text-details {
+    width: 90%;
+  }
+  .bold-para-details {
+    width: 90%;
+  }
+  .subpara-details {
+    width: 90%;
+  }
 }
