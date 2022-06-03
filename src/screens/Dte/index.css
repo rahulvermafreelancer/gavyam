@@ -3,9 +3,46 @@
   padding-bottom: 10%;
 }
 .unique-title {
-  font-size: 58px;
+  font-size: 3.7vw;
   font-weight: bold;
   color: #b55219;
   text-align: center;
   padding-top: 10%;
+}
+.unique-main-slider {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.unique-card-main {
+  padding: 3%;
+  margin: 1%;
+  background-color: #ffffff;
+}
+.unique-card-image-section {
+  background-color: #b55219;
+  border-radius: 50%;
+  margin-top: 10%;
+}
+.unique-card-text-section {
+  margin-top: 10%;
+  padding: 10%;
+}
+.card-main-container-unique {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+}
+.unique-card-title {
+  font-size: 1.8vw;
+  color: #b55219;
+  text-align: center;
+}
+.unique-card-para {
+  font-size: 1.56vw;
+  text-align: center;
+  margin-top: 10%;
 }
