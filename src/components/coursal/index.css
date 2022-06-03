@@ -19,7 +19,7 @@
 }
 .shop-text {
   color: #b55219;
-  font-size: 22px;
+  font-size: 1.43vw;
   font-weight: 600;
 }
 .card-slick-heading {
@@ -29,11 +29,10 @@
 }
 .heading-card-slider {
   color: #b55219;
-  font-size: 34px;
-  font-weight: 600;
+  font-size: 2.21vw;
 }
 .slider-card-para {
-  font-size: 24px;
+  font-size: 1.56vw;
   padding-top: 8%;
 }
 .writer-main-card {
@@ -48,7 +47,7 @@
 }
 .writer-name-text-card {
   padding-left: 15px;
-  font-size: 22px;
+  font-size: 1.43vw;
   font-weight: 600;
 }
 .sliderclass {
@@ -63,7 +62,7 @@
   justify-content: space-between;
 }
 .slider-head-para-text {
-  font-size: 34px;
+  font-size: 2.21vw;
   font-weight: 600;
 }
 .arrows-section {
@@ -72,4 +71,28 @@
 }
 .left-arrow-section {
   margin-right: 10px;
+}
+@media only screen and (max-width: 1080px) {
+  .resource-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .writer-main {
+    width: 60%;
+  }
+  .resource-text-section {
+    margin-top: 5%;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .resource-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .writer-main {
+    width: 80%;
+  }
+  .resource-text-section {
+    margin-top: 5%;
+  }
 }

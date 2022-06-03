@@ -1,55 +1,36 @@
 .header-section {
   background-color: #1f2d16;
-  padding-top: 1%;
 }
-.page-section {
+.page-section-banner {
   display: flex;
   flex-direction: row;
-  padding-left: 5%;
+  width: 90%;
+  max-width: 1536px;
+  margin: 0 auto;
 }
 .page-section-text {
-  font-size: 18px;
-  font-weight: 300;
-  color: #ffffff;
-  font-family: light;
-  padding-left: 10px;
-  opacity: 0.7;
-}
-.sign-alignment {
-  color: #ffffff;
-  margin-left: 10px;
-  margin-top: 2px;
-  opacity: 0.7;
+  font-size: 1.1vw;
+  padding-right: 1%;
 }
 .main-section {
-  margin-top: 3%;
   background-image: url("../../assets/coursal/bg.png");
   background-repeat: no-repeat, no-repeat;
   background-position: bottom right;
-  padding-top: 7%;
-  padding-bottom: 5%;
 }
 .main-section-title {
-  color: #ffffff;
-  font-size: 68px;
-  font-weight: bold;
+  font-size: 4.4vw;
   text-align: center;
 }
 .color-bar {
   background-color: #b55219;
-  padding: 2px;
-  width: 4%;
+  width: 5%;
   margin: 0 auto;
   border-radius: 10px;
 }
 .para-text-desc {
-  font-size: 24px;
-  font-weight: 300;
-  color: #ffffff;
-  font-family: regular;
+  font-size: 1.5vw;
   text-align: center;
-  margin-top: 5px;
-  opacity: 0.7;
+  padding-top: 1.5%;
 }
 
 .resource-container {
@@ -58,15 +39,15 @@
   padding-top: 5%;
   display: flex;
   flex-direction: row;
+  margin-top: 2%;
 }
 .resource-image-section {
   width: 95%;
-  padding-left: 5%;
+  width: 50%;
 }
 .resource-text-section {
-  margin-left: 10px;
   padding-left: 3%;
-  padding-top: 2%;
+  width: 50%;
 }
 .nearest-class {
   background-color: #e5e7e3;
@@ -75,23 +56,20 @@
   border-radius: 10px;
 }
 .resource-para-text {
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 1.43vw;
   text-align: center;
 }
 .heading-resource-text {
   color: #b55219;
-  font-size: 48px;
-  font-weight: bold;
-  padding-top: 10px;
+  font-size: 3.12vw;
 }
 .resources-para-text {
-  font-size: 24px;
+  font-size: 1.56vw;
   color: #1f2d16;
-  width: 75%;
+  margin-top: 2%;
 }
 .writer-main {
-  width: 30%;
+  width: 50%;
   display: flex;
   flex-direction: row;
 }
@@ -106,4 +84,28 @@
 .writer-name-text {
   font-size: 22px;
   font-weight: 600;
+}
+@media only screen and (max-width: 1080px) {
+  .resource-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .writer-main {
+    width: 60%;
+  }
+  .resource-text-section {
+    margin-top: 5%;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .resource-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .writer-main {
+    width: 80%;
+  }
+  .resource-text-section {
+    margin-top: 5%;
+  }
 }

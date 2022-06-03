@@ -8,7 +8,7 @@ export const Coursal = ({ heading }) => {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000
@@ -17,7 +17,7 @@ export const Coursal = ({ heading }) => {
   return (
     <>
       <div className="title-section">
-        <p className="slider-head-para-text">{heading}</p>
+        <p className="slider-head-para-text font-regular font-bold ">{heading}</p>
         <div className="arrows-section">
           <div className="left-arrow-section">
             <img src='./assets/left.png' alt="arrows"/>
@@ -35,13 +35,13 @@ export const Coursal = ({ heading }) => {
               <img src="./assets/image-3.png" alt="cow" />
             </div>
             <div className="shop-section">
-              <p className="shop-text">Shop</p>
+              <p className="shop-text font-regular">Shop</p>
             </div>
             <div className="card-slick-heading">
-              <h1 className="heading-card-slider">
+              <h1 className="heading-card-slider font-regular font-bold">
                 Lorem ipsum dolor sit amet, Consectetur?
               </h1>
-              <p className="slider-card-para">
+              <p className="slider-card-para font-regular">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem…
                 <span style={{ fontWeight: "bold" }}>READ MORE</span>
               </p>
@@ -55,7 +55,7 @@ export const Coursal = ({ heading }) => {
                 />
               </div>
               <div className="writer-desc-card">
-                <p className="writer-name-text-card">By : Name here</p>
+                <p className="writer-name-text-card font-regular">By : Name here</p>
                 <p style={{ opacity: "0.7", paddingLeft: 15 }}>Just now</p>
               </div>
             </div>
@@ -68,13 +68,13 @@ export const Coursal = ({ heading }) => {
               <img src="./assets/image-3.png" alt="cow" />
             </div>
             <div className="shop-section">
-              <p className="shop-text">Shop</p>
+              <p className="shop-text font-regular">Shop</p>
             </div>
             <div className="card-slick-heading">
-              <h1 className="heading-card-slider">
+              <h1 className="heading-card-slider font-regular font-bold">
                 Lorem ipsum dolor sit amet, Consectetur?
               </h1>
-              <p className="slider-card-para">
+              <p className="slider-card-para font-regular ">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem…
                 <span style={{ fontWeight: "bold" }}>READ MORE</span>
               </p>
@@ -88,7 +88,7 @@ export const Coursal = ({ heading }) => {
                 />
               </div>
               <div className="writer-desc-card">
-                <p className="writer-name-text-card">By : Name here</p>
+                <p className="writer-name-text-card font-regular">By : Name here</p>
                 <p style={{ opacity: "0.7", paddingLeft: 15 }}>Just now</p>
               </div>
             </div>
@@ -101,13 +101,13 @@ export const Coursal = ({ heading }) => {
               <img src="./assets/image-3.png" alt="cow" />
             </div>
             <div className="shop-section">
-              <p className="shop-text">Shop</p>
+              <p className="shop-text font-regular">Shop</p>
             </div>
             <div className="card-slick-heading">
-              <h1 className="heading-card-slider">
+              <h1 className="heading-card-slider font-regular font-bold">
                 Lorem ipsum dolor sit amet, Consectetur?
               </h1>
-              <p className="slider-card-para">
+              <p className="slider-card-para font-regular">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem…
                 <span style={{ fontWeight: "bold" }}>READ MORE</span>
               </p>
@@ -121,7 +121,7 @@ export const Coursal = ({ heading }) => {
                 />
               </div>
               <div className="writer-desc-card">
-                <p className="writer-name-text-card">By : Name here</p>
+                <p className="writer-name-text-card font-regular">By : Name here</p>
                 <p style={{ opacity: "0.7", paddingLeft: 15 }}>Just now</p>
               </div>
             </div>
@@ -134,13 +134,13 @@ export const Coursal = ({ heading }) => {
               <img src="./assets/image-3.png" alt="cow" />
             </div>
             <div className="shop-section">
-              <p className="shop-text">Shop</p>
+              <p className="shop-text font-regular">Shop</p>
             </div>
             <div className="card-slick-heading">
-              <h1 className="heading-card-slider">
+              <h1 className="heading-card-slider font-regular font-bold">
                 Lorem ipsum dolor sit amet, Consectetur?
               </h1>
-              <p className="slider-card-para">
+              <p className="slider-card-para font-regular">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem…
                 <span style={{ fontWeight: "bold" }}>READ MORE</span>
               </p>
@@ -154,7 +154,7 @@ export const Coursal = ({ heading }) => {
                 />
               </div>
               <div className="writer-desc-card">
-                <p className="writer-name-text-card">By : Name here</p>
+                <p className="writer-name-text-card font-regular">By : Name here</p>
                 <p style={{ opacity: "0.7", paddingLeft: 15 }}>Just now</p>
               </div>
             </div>
