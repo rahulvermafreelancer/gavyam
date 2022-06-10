@@ -34,9 +34,10 @@ export const Contact = () => {
         </div>
       </div>
 
-      <div className="contact-main-section">
+      <div className="contact-main-section-random">
         
         <div className="contact-section">
+          
           <div className="heading-section">
             <h1 className="contact-title-text font-regular font-bold">
               Gavyam Gentech Pvt. Ltd.
@@ -76,7 +77,8 @@ export const Contact = () => {
           </div>
         </div>
 
-        <div className="contact-section">
+        <div className="contact-section-left">
+          
           <div className="heading-section-form">
             <h1 className="contact-title-text font-regular font-bold">
               Let's talk!
@@ -108,7 +110,7 @@ export const Contact = () => {
               </div>
             </div>
 
-            <div className="input-main">
+            <div className="input-main-contact-div">
               <div>
                 <input
                   type="number"
@@ -125,17 +127,17 @@ export const Contact = () => {
               </div>
             </div>
 
-            <div className="input-main">
+            <div className="input-main-contact-div">
               <div>
                 <input
                   type="textarea"
                   placeholder="Your Message"
-                  className="input-field-size-large font-regular"
+                  className="input-field-size font-regular"
                 />
               </div>
             </div>
 
-            <div className="form-button-section">
+            <div className="send-to-us-button">
               <p className="send-text">Send to us</p>
               <div className="arrow-align">
                 <svg
@@ -156,7 +158,9 @@ export const Contact = () => {
               </div>
             </div>
           </div>
+
         </div>
+
       </div>
       <div>
         <iframe
