@@ -1,6 +1,5 @@
 .dashborad-main {
   margin-bottom: 5%;
-  margin-top: 5%;
 }
 .dashboard-heading-section {
   width: 80%;
@@ -11,31 +10,42 @@
   color: #b55219;
   font-size: 3.7vw;
   width: 60%;
-  max-width: 500px;
+  max-width: 600px;
 }
 .dasboard-para {
   color: #1f2d16;
   width: 60%;
-  max-width: 750px;
+  max-width: 900px;
   margin: 0 auto;
   font-size: 1.8vw;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1500px) {
   .dashboard-title {
-    width: 100%;
-  }
-  .dasboard-para {
-    width: 100%;
+    width: 60%;
+    max-width: 500px;
   }
 }
 @media only screen and (max-width: 1280px) {
   .dashboard-title {
-    width: 80%;
+    width: 60%;
+    max-width: 400px;
   }
   .dasboard-para {
-    width: 90%;
+    width: 60%;
+    max-width: 600px;
   }
 }
+@media only screen and (max-width: 770px) {
+  .dashboard-title {
+    width: 100%;
+    max-width: 300px;
+  }
+  .dasboard-para {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
 .desh-section-one {
   background-image: url(../../assets//bolus/dashboard-bg.svg);
   background-repeat: no-repeat no-repeat;
@@ -103,6 +113,7 @@
 .management-title {
   font-size: 1.8vw;
   padding-left: 5%;
+  color: #1f2d16;
 }
 .card-icons {
   width: 40%;
@@ -119,6 +130,7 @@
   margin-left: 5%;
   font-size: 1.8vw;
   padding-bottom: 5%;
+  color: #1f2d16;
 }
 @media only screen and (max-width: 1080px) {
   .bolus-management-card {

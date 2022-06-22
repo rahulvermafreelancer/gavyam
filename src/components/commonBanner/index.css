@@ -10,7 +10,7 @@
 }
 .page-section-text {
   font-size: 1.1vw;
-  padding-right: 1%;
+  padding-left: 1%;
 }
 .main-section {
   background-image: url("../../assets/coursal/bg.png");
@@ -20,10 +20,11 @@
 .main-section-title {
   font-size: 4.4vw;
   text-align: center;
+  margin-top: 1%;
 }
 .color-bar {
   background-color: #b55219;
-  padding: 1%;
+  padding: 3px;
   width: 5%;
   margin: 0 auto;
   border-radius: 10px;
@@ -32,5 +33,5 @@
   font-size: 1.5vw;
   text-align: center;
   padding-top: 1.5%;
+  padding-bottom: 7%;
 }
-

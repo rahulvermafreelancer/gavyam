@@ -85,7 +85,9 @@ export const Bolus = () => {
 
       <div className="dashborad-main">
         <div className="dashboard-heading-section">
-          <h1 className="dashboard-title font-regular font-bold">Cattle Management Portal</h1>
+          <h1 className="dashboard-title font-regular font-bold">
+            Cattle Management Portal
+          </h1>
           <p className="dasboard-para font-regular">
             A one-stop portal that helps dairy farmers to manage their cattle's
             health data efficiently at any time from anywhere.
@@ -99,7 +101,6 @@ export const Bolus = () => {
         </div>
       </div>
 
-
       <div className="management-section-main">
         <div className="management-head">
           <h1 className="heading-management font-regular font-bold">
@@ -110,10 +111,12 @@ export const Bolus = () => {
           {DATA.map((item) => (
             <div key={item.id} className="bolus-management-card">
               <div className="card-icons">
-                <img src={item.image} alt="icon"/>
+                <img src={item.image} alt="icon" />
               </div>
               <div className="text-area-card-management">
-                <h1 className="management-title font-regular font-bold">{item.title}</h1>
+                <h1 className="management-title font-regular font-bold">
+                  {item.title}
+                </h1>
                 <p className="card-para font-regular">{item.paratext}</p>
               </div>
             </div>

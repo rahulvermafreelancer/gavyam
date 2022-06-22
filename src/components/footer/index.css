@@ -1,12 +1,15 @@
 footer {
-    background-image: url(./icons/bg.svg);
-    background-position:  bottom -60px  right 20px  ;
-    background-size:  400px auto ;
-    background-repeat: no-repeat ;
+  background-image: url(./icons/bg.svg);
+  background-position: bottom -60px right 20px;
+  background-size: 400px auto;
+  background-repeat: no-repeat;
 }
 
-@media ( max-width:768px){
-    footer {
-        background-image: none;
-    }
+@media (max-width: 768px) {
+  footer {
+    background-image: none;
+  }
+}
+.check {
+  border: 2px solid red;
 }
