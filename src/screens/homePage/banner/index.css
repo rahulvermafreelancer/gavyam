@@ -68,6 +68,7 @@
 .custom-banner {
   padding-top: 40%;
 }
+
 .heading-text {
   color: #b55219;
   font-size: 68px;
@@ -78,6 +79,53 @@
   color: #fff;
   opacity: 0.7;
 }
-.bor{
-  background-color: red;
+
+.banner-main-class-container {
+  display: flex;
+  flex-direction: row;
+}
+.banner-text-conatiner {
+  width: 60%;
+}
+.banner-image-container {
+  width: 40%;
+  margin-top: 10rem;
+}
+.banner-text-background-container {
+  background-image: url("../../../../public//assets/banner-bg.svg");
+  border-bottom-right-radius: 50%;
+  background-repeat: no-repeat no-repeat;
+  background-size: 80%;
+}
+.banner-container-text-align {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+.banner-text-heading {
+  color: #b55219;
+  font-size: 4.1vw;
+  max-width: 600px;
+}
+.banner-para-text {
+  color: #fff;
+  font-size: 1.7vw;
+  max-width: 900px;
+}
+.about-button {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.banner-design {
+  background-image: url("../../../../public/assets/banner-bg-design.svg");
+  background-repeat: no-repeat no-repeat;
+  background-size: 80%;
+}
+.banner-border-design {
+  position: absolute;
+}
+.image-size {
+  width: 80%;
 }

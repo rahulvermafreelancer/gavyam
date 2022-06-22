@@ -25,7 +25,7 @@ export function NavBar() {
 
   return (
     <nav className="sticky top-0 left-0 right-0  bg-earth h-20 font-regular z-[100]">
-      <div className="mx-auto max-w-screen-2xl   px-4 lg:w-11/12 flex flex-nowrap justify-between items-center gap-2">
+      <div className="mx-auto max-w-screen-2xl   px-4 lg:w-11/12 flex flex-nowrap justify-between items-center gap-2 ">
         <Link to="/" className="h-20  w-36 lg:w-40 grid place-content-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
