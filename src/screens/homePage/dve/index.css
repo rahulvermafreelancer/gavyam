@@ -5,7 +5,8 @@
   bottom: 0;
   height: 100%;
   width: 65%;
-  background-image: url(../../../assets/dve/hero.png), url(../../../assets/dve/dve.png);;
+  background-image: url(../../../assets/dve/hero.png),
+    url(../../../assets/dve/dve.png);
   background-size: contain;
   background-position: right -40px bottom -5px;
   background-repeat: no-repeat;
@@ -27,4 +28,12 @@
     border-bottom-left-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
   }
+}
+.DVE-heading {
+  font-size: 3vw;
+  color: #1f2d16;
+}
+.DVE-para {
+  font-size: 1.4vw;
+  color: #1f2d16;
 }

@@ -89,7 +89,7 @@
 }
 .banner-image-container {
   width: 40%;
-  margin-top: 10rem;
+  margin-top: 12rem;
 }
 .banner-text-background-container {
   background-image: url("../../../../public//assets/banner-bg.svg");
@@ -104,13 +104,13 @@
 }
 .banner-text-heading {
   color: #b55219;
-  font-size: 4.1vw;
+  font-size: 4vw;
   max-width: 600px;
 }
 .banner-para-text {
   color: #fff;
-  font-size: 1.7vw;
-  max-width: 900px;
+  font-size: 1.6vw;
+  max-width: 800px;
 }
 .about-button {
   width: 50%;

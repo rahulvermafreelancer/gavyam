@@ -11,3 +11,11 @@
   background-position: left bottom -100px;
   background-repeat: no-repeat;
 }
+.DTE-heading {
+  font-size: 3vw;
+  color: #1f2d16;
+}
+.DTE-para {
+  font-size: 1.4vw;
+  color: #1f2d16;
+}
