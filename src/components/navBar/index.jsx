@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./index.css";
 import { Fragment, useReducer } from "react";
@@ -465,6 +465,16 @@ export function NavBar() {
           >
             <span className="text-white relative text-lg xl:text-xl px-4 py-2 rounded-md  ">
               Resources
+            </span>
+          </NavLink>
+          <NavLink
+            className={(navData) =>
+              navData.isActive ? "active-nav navLink" : " navLink"
+            }
+            to="/career"
+          >
+            <span className="text-white relative text-lg xl:text-xl px-4 py-2 rounded-md ">
+              Career
             </span>
           </NavLink>
           <NavLink

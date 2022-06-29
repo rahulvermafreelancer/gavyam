@@ -22,14 +22,16 @@ export const Career = () => {
     <>
       <div className="header-section">
         <div className="page-section-banner">
-          <p className="page-sections-text font-regular">Home</p>
+          <p className="page-sections-text font-regular text-white">Home</p>
           <img src="/assets/arrowLeft.svg" alt="arrow" />
-          <p className="page-sections-text font-regular">Career</p>
+          <p className="page-sections-text font-regular text-white">Career</p>
         </div>
         <div className="main-section">
-          <h1 className="main-section-title font-regular font-bold">CAREER</h1>
+          <h1 className="main-section-title font-regular font-bold text-white">
+            CAREER
+          </h1>
           <div className="color-bar" />
-          <p className="para-text-desc font-light">
+          <p className="para-text-desc font-light text-white">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
             quae ab illo inventore veritatis.

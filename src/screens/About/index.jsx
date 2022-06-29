@@ -77,7 +77,7 @@ export const About = () => {
         </div>
       </div>
 
-      {/* <Value /> */}
+      <Value />
       <CoreTeam />
     </>
   );

@@ -723,17 +723,17 @@ export const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/news">
+                  <Link to="#">
                     <span className="xl:text-lg">News & More</span>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/articles">
+                  <Link to="#">
                     <span className="xl:text-lg">Articles</span>
                   </Link>
                 </li>
                 <li>
-                  <Link to="/case-studies">
+                  <Link to="#">
                     <span className="xl:text-lg">Case Studies</span>
                   </Link>
                 </li>
