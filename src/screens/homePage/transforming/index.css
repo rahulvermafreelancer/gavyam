@@ -1,9 +1,15 @@
 .transform-heading {
-  font-size: 3.2vw;
-  font-weight: bold;
+  font-size: 3vw;
   color: #b55219;
+  max-width: 700px;
 }
 .para-text {
-  font-size: 1.7vw;
+  font-size: 1.55vw;
   color: #1f2d16;
+  text-align: center;
+}
+@media screen and (max-width: 1750px) {
+  .transform-heading {
+    max-width: 600px;
+  }
 }

@@ -79,7 +79,7 @@
   color: #fff;
   opacity: 0.7;
 }
-
+/* new css */
 .banner-main-class-container {
   display: flex;
   flex-direction: row;
@@ -89,7 +89,7 @@
 }
 .banner-image-container {
   width: 40%;
-  margin-top: 12rem;
+  margin-top: 10rem;
 }
 .banner-text-background-container {
   background-image: url("../../../../public//assets/banner-bg.svg");
@@ -104,13 +104,12 @@
 }
 .banner-text-heading {
   color: #b55219;
-  font-size: 4vw;
-  max-width: 600px;
+  font-size: 3.4vw;
 }
 .banner-para-text {
   color: #fff;
-  font-size: 1.6vw;
-  max-width: 800px;
+  font-size: 1.55vw;
+  max-width: 700px;
 }
 .about-button {
   width: 50%;

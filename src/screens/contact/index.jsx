@@ -20,14 +20,16 @@ export const Contact = () => {
 
   return (
     <>
-      <div className="header-section">
+      <div className="header-section" style={{ paddingBottom: "5%" }}>
         <div className="page-section-banner">
-          <p className="page-section-text font-regular">Home</p>
+          <p className="page-section-text font-regular text-white">Home</p>
           <img src="/assets/arrowLeft.svg" alt="arrow" />
-          <p className="page-section-text font-regular">Contact Us</p>
+          <p className="page-section-text font-regular text-white">
+            Contact Us
+          </p>
         </div>
         <div className="main-section">
-          <h1 className="main-section-title font-regular font-bold">
+          <h1 className="main-section-title font-regular font-bold text-white">
             CONTACT US
           </h1>
           <div className="color-bar" />
@@ -35,9 +37,7 @@ export const Contact = () => {
       </div>
 
       <div className="contact-main-section-random">
-        
         <div className="contact-section">
-          
           <div className="heading-section">
             <h1 className="contact-title-text font-regular font-bold">
               Gavyam Gentech Pvt. Ltd.
@@ -78,7 +78,6 @@ export const Contact = () => {
         </div>
 
         <div className="contact-section-left">
-          
           <div className="heading-section-form">
             <h1 className="contact-title-text font-regular font-bold">
               Let's talk!
@@ -158,9 +157,7 @@ export const Contact = () => {
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
       <div>
         <iframe

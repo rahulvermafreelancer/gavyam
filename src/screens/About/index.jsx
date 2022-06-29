@@ -11,16 +11,16 @@ export const About = () => {
     <>
       <div className="header-section">
         <div className="page-section-banner">
-          <p className="page-section-text font-light">Home</p>
+          <p className="page-section-text font-light text-white">Home</p>
           <img src="/assets/arrowLeft.svg" alt="arrow" />
-          <p className="page-section-text font-light">About Us</p>
+          <p className="page-section-text font-light text-white">About Us</p>
         </div>
         <div className="main-section">
-          <h1 className="main-section-title font-regular font-bold">
+          <h1 className="main-section-title font-regular font-bold text-white">
             ABOUT US
           </h1>
           <div className="color-bar" />
-          <p className="para-text-desc font-regular">
+          <p className="para-text-desc font-regular text-white">
             We are dedicated to transforming dairy farming into a smart and
             sustainable industry.
           </p>
@@ -54,7 +54,7 @@ export const About = () => {
               <img src={LeftImage} alt="about-cow" />
             </div>
             <div className="mission-section">
-              <h1 className="mission-title font-regular">Mission</h1>
+              <h1 className="mission-title font-regular font-bold">Mission</h1>
               <p className="mission-paragraph font-regular font-bold">
                 Digitalization of the dairy industry to help farmers raise
                 healthier and more productive livestock.
@@ -67,17 +67,16 @@ export const About = () => {
             <br />
             <img src={RightTwo} alt="about-cow" />
             <div className="vision-section">
-              <h1 className="mission-title font-regular">Vision</h1>
+              <h1 className="mission-title font-regular font-bold">Vision</h1>
               <p className="mission-paragraph font-regular font-bold">
                 Transforming livestock breeding and management with affordable &
                 smart farming solutions.
               </p>
             </div>
           </div>
-
         </div>
       </div>
-      
+
       {/* <Value /> */}
       <CoreTeam />
     </>

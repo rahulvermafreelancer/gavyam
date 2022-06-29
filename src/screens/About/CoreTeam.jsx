@@ -25,7 +25,6 @@ export const CoreTeam = () => {
           </div>
         </div>
 
-        
         <div className="team-card-body-orange">
           <p className="card-text-para font-regular">
             Sed Ut Perspiciatis Unde Omnis Iste Natus Error Sit Voluptatem
@@ -108,8 +107,11 @@ export const CoreTeam = () => {
           </h1>
           <p className="question-para font-regular">
             In case you haven't found the answer to your question, please feel
-            free to <span style={{ color: "#B55219" }}>contact us</span>, our
-            customer support will be happy to help you.
+            free to{" "}
+            <span style={{ color: "#B55219" }}>
+              <a href="/contact">contact us </a>
+            </span>
+            , our customer support will be happy to help you.
           </p>
         </div>
       </div>

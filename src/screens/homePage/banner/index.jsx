@@ -83,7 +83,9 @@ const Banner = () => {
               <h1 className="font-regular font-bold banner-text-heading">
                 INCREASE DAIRY PRODUCTION,
                 <br />
-                <span className="text-white"> WITHOUT RISK OR ERRORS!</span>
+                <span className="text-white"> WITHOUT RISK</span>
+                <br />
+                <span className="text-white"> OR ERRORS!</span>
               </h1>
               <p className="font-regular banner-para-text">
                 Digitizing the Herd Monitoring and Breeding System to Enhance

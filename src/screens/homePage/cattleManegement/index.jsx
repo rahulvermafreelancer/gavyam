@@ -9,7 +9,7 @@ export const CattleManagement = () => {
           <h1 className="blade-title font-regular font-bold md:px-2 py-6 w-10/12  max-w-[32rem] leading-snug text-brown">
             Cattle management made easy!
           </h1>
-          <span className=" max-w-3xl font-regular text-green para-text mx-auto text-xl md:text-3xl cattle-text-color">
+          <span className="  font-regular  cattle-text-color">
             The digiGAI cattle management system simplifies monitoring a
             cattle's health and tracking all cattle-related data efficiently.
             Veterinary doctors and dairy farmers can access real-time

@@ -2,7 +2,7 @@
   background-image: url(../../../assets/dte/hero.png),
     url(../../../assets/dte/bg.png);
   background-position: center bottom 10px, bottom center;
-  background-size: auto 95%, 90% auto;
+  background-size: auto 95%, 60% auto;
   background-repeat: no-repeat, no-repeat;
 }
 .dte-bg-wrapper {
@@ -16,6 +16,6 @@
   color: #1f2d16;
 }
 .DTE-para {
-  font-size: 1.4vw;
+  font-size: 1.55vw;
   color: #1f2d16;
 }
