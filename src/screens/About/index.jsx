@@ -20,7 +20,7 @@ export const About = () => {
             ABOUT US
           </h1>
           <div className="color-bar" />
-          <p className="para-text-desc font-regular text-white">
+          <p className="para-text-desc font-light text-white">
             We are dedicated to transforming dairy farming into a smart and
             sustainable industry.
           </p>

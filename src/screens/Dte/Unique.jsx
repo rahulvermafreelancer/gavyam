@@ -12,7 +12,6 @@ export const Unique = () => {
       </h1>
 
       <div className="unique-main-slider">
-        
         <div className="unique-card-main">
           <div className="card-main-container-unique">
             <div className="unique-card-image-section">
@@ -20,7 +19,7 @@ export const Unique = () => {
             </div>
             <div className="unique-card-text-section">
               <h1 className="font-regular font-bold unique-card-title">
-              Live temperature reading
+                Live temperature reading
               </h1>
               <p className="unique-card-para font-regular ">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -47,7 +46,6 @@ export const Unique = () => {
           </div>
         </div>
 
-
         <div className="unique-card-main">
           <div className="card-main-container-unique">
             <div className="unique-card-image-section">
@@ -55,7 +53,7 @@ export const Unique = () => {
             </div>
             <div className="unique-card-text-section">
               <h1 className="font-regular font-bold unique-card-title">
-              Compatible to store frozen semen & sex-sorted semen
+                Compatible to store frozen semen & sex-sorted semen
               </h1>
               <p className="unique-card-para font-regular ">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -64,7 +62,6 @@ export const Unique = () => {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

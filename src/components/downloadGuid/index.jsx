@@ -4,18 +4,15 @@ import DownloadIcon from "../../assets/coursal/download.svg";
 
 export const DownloadGuid = () => {
   return (
-    <div className="download-main">
-      <h1 className="download-title font-regular font-bold">
-        The detailed guide
-      </h1>
-      <a href="assets/test.pdf" download>
-        <button className="download-div">
-          <p className="download-para-text font-regular font-bold">
-            Download the brochure
-          </p>
-          <img src={DownloadIcon} alt="download-icon" />
-        </button>
-      </a>
+    <div className="download-align-btn">
+      <button
+        data="red"
+        className={` border-2 border-brown rounded-full flex flex-nowrap items-center text-earth justify-center gap-4 hvr-bounce-to-right  overflow-hidden py-4 text-xl my-1 px-4 hvr-bounce-to-right-brown`}
+      >
+        <p className="font-regular "> Download the brochure</p>
+
+        <img src={DownloadIcon} alt="download-icon" />
+      </button>
     </div>
   );
 };

@@ -17,7 +17,7 @@ const Partners = () => {
         </div>
         <div className="item grid place-content-center  cursor-pointer  ">
           <img
-            src={nutrafruit}
+            src={edison}
             alt=""
             className=" h-20 md:h-24 lg:h-24 grayscale hover:grayscale-0  object-cover"
           />
@@ -31,7 +31,7 @@ const Partners = () => {
         </div>
         <div className="item grid place-content-center    cursor-pointer  ">
           <img
-            src={nutrafruit}
+            src={edison}
             alt=""
             className=" h-20 md:h-24 lg:h-24 grayscale hover:grayscale-0  object-cover"
           />
@@ -45,7 +45,7 @@ const Partners = () => {
         </div>
         <div className="item grid place-content-center  cursor-pointer     ">
           <img
-            src={nutrafruit}
+            src={edison}
             alt=""
             className=" h-20 md:h-24 lg:h-24 grayscale hover:grayscale-0  object-cover"
           />
@@ -59,7 +59,7 @@ const Partners = () => {
         </div>
         <div className="item grid place-content-center   cursor-pointer ">
           <img
-            src={nutrafruit}
+            src={edison}
             alt=""
             className=" h-20 md:h-24 lg:h-24 grayscale hover:grayscale-0  object-cover"
           />
@@ -73,7 +73,7 @@ const Partners = () => {
         </div>
         <div className="item grid place-content-center   cursor-pointer   ">
           <img
-            src={nutrafruit}
+            src={edison}
             alt=""
             className=" h-20 md:h-24 lg:h-24 grayscale hover:grayscale-0  object-cover"
           />

@@ -28,7 +28,13 @@
   margin: 0 auto;
   border-radius: 10px;
 }
-
+.para-text-desc-career {
+  font-size: 1.5vw;
+  text-align: center;
+  padding-top: 1.5%;
+  width: 60%;
+  margin: 0 auto;
+}
 .contact-main-section-random {
   width: 85%;
   margin: 0 auto;

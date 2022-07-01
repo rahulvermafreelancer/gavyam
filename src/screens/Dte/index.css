@@ -3,7 +3,7 @@
   padding-bottom: 10%;
 }
 .unique-title {
-  font-size: 3.4vw;
+  font-size: 2.4vw;
   font-weight: bold;
   color: #b55219;
   text-align: center;
@@ -12,22 +12,22 @@
 .unique-main-slider {
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .unique-card-main {
-  padding: 3%;
-  margin: 1%;
+  margin: 2%;
   background-color: #ffffff;
+  border-radius: 234px;
 }
 .unique-card-image-section {
   background-color: #b55219;
   border-radius: 50%;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 .unique-card-text-section {
-  margin-top: 10%;
+  margin-top: 2%;
   padding: 10%;
 }
 .card-main-container-unique {
@@ -37,12 +37,14 @@
   padding-top: 10%;
 }
 .unique-card-title {
-  font-size: 1.8vw;
+  font-size: 1.4vw;
   color: #b55219;
   text-align: center;
 }
 .unique-card-para {
-  font-size: 1.56vw;
+  font-size: 1vw;
   text-align: center;
-  margin-top: 10%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
 }
