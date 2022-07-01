@@ -11,14 +11,16 @@ const DTE = () => {
             DigiGAI Digital Thawing Equipment {"("}DTE{")"}
           </h1>
           <span className="md:w-10/12 font-regular DTE-para">
-            Boost your cattle's conception rate using digiGAI's DVE. Our Digital
-            Vet Endoscope is designed to keep the biggest challenges of
-            artificial insemination in mind. It helps you gain access to
-            accurate insemination data and live streams the procedure to ensure
-            100% accuracy and success rate.
+            Ensure a good quality semen dose and increase the success rate of
+            pregnancy during artificial insemination with Digital Thawing
+            Equipment. Our carefully designed thawing system improves the
+            handling, safety, and sustainability of both normal and sex-sorted
+            semen.
           </span>
           <div className="my-9">
-            <MasterBtn text="Read More" bgColor="brown" />
+            <a href="/products/dte">
+              <MasterBtn text="Read More" bgColor="brown" />
+            </a>
           </div>
         </div>
       </section>

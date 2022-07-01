@@ -42,3 +42,7 @@
 coursal-bg-image {
   background-image: url(../../../assets/coursal/bg.png);
 }
+
+.bg-color {
+  background-color: #545e46;
+}

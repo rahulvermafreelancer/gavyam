@@ -95,7 +95,9 @@ const Banner = () => {
             </div>
           </div>
           <div className="about-button">
-            <MasterBtn bgColor="brown" text="About Us" />
+            <a href="/about">
+              <MasterBtn bgColor="brown" text="About Us" />
+            </a>
           </div>
         </div>
 

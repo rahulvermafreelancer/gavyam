@@ -1,4 +1,5 @@
-import demo1 from "./assets/demo1.svg";
+import edison from "./assets/demo1.svg";
+import nutrafruit from "./assets/neutrafruit.png";
 
 const Partners = () => {
   return (
@@ -9,70 +10,70 @@ const Partners = () => {
       <section className=" mb-14  max-w-screen-2xl  lg:w-11/12 mx-auto flex flex-wrap items-start justify-center  px-4 h-full  xl:gap-4">
         <div className="item grid place-content-center  cursor-pointer  ">
           <img
-            src={demo1}
+            src={edison}
             alt=""
             className=" h-20 md:h-24 lg:h-24 grayscale hover:grayscale-0  object-cover"
           />
         </div>
         <div className="item grid place-content-center  cursor-pointer  ">
           <img
-            src={demo1}
+            src={nutrafruit}
             alt=""
             className=" h-20 md:h-24 lg:h-24 grayscale hover:grayscale-0  object-cover"
           />
         </div>
         <div className="item grid place-content-center  cursor-pointer  ">
           <img
-            src={demo1}
+            src={edison}
             alt=""
             className=" h-20 md:h-24 lg:h-24 grayscale hover:grayscale-0  object-cover"
           />
         </div>
         <div className="item grid place-content-center    cursor-pointer  ">
           <img
-            src={demo1}
+            src={nutrafruit}
             alt=""
             className=" h-20 md:h-24 lg:h-24 grayscale hover:grayscale-0  object-cover"
           />
         </div>
         <div className="item grid place-content-center   cursor-pointer   ">
           <img
-            src={demo1}
+            src={edison}
             alt=""
             className=" h-20 md:h-24 lg:h-24 grayscale hover:grayscale-0  object-cover"
           />
         </div>
         <div className="item grid place-content-center  cursor-pointer     ">
           <img
-            src={demo1}
+            src={nutrafruit}
             alt=""
             className=" h-20 md:h-24 lg:h-24 grayscale hover:grayscale-0  object-cover"
           />
         </div>
         <div className="item grid place-content-center  cursor-pointer  ">
           <img
-            src={demo1}
+            src={edison}
             alt=""
             className=" h-20 md:h-24 lg:h-24 grayscale hover:grayscale-0  object-cover"
           />
         </div>
         <div className="item grid place-content-center   cursor-pointer ">
           <img
-            src={demo1}
+            src={nutrafruit}
             alt=""
             className=" h-20 md:h-24 lg:h-24 grayscale hover:grayscale-0  object-cover"
           />
         </div>
         <div className="item grid place-content-center  cursor-pointer  ">
           <img
-            src={demo1}
+            src={edison}
             alt=""
             className=" h-20 md:h-24 lg:h-24 grayscale hover:grayscale-0  object-cover"
           />
         </div>
         <div className="item grid place-content-center   cursor-pointer   ">
           <img
-            src={demo1}
+            src={nutrafruit}
             alt=""
             className=" h-20 md:h-24 lg:h-24 grayscale hover:grayscale-0  object-cover"
           />

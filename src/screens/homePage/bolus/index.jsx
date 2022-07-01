@@ -16,7 +16,9 @@ const Bolus = () => {
             entire herd individually on a cloud-based system.
           </span>
           <div className="my-9">
-            <MasterBtn bgColor="white" text="Read More" />
+            <a href="/products/bolus">
+              <MasterBtn bgColor="white" text="Read More" />
+            </a>
           </div>
         </div>
         <div className="flex-1 basis-[23rem] img-wrapper h-[25rem] lg:h-[35rem] xl:h-[35rem] "></div>

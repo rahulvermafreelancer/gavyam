@@ -385,18 +385,33 @@ export function NavBar() {
               </Menu.Items>
             </Transition>
           </Menu>
-          <Menu as="div" className="relative inline-block text-left">
+
+          <NavLink
+            className={(navData) =>
+              navData.isActive ? "active-nav navLink" : "navLink "
+            }
+            to="/about"
+          >
+            <span className="text-white relative text-lg xl:text-xl px-4 py-2 rounded-md  ">
+              About Us
+            </span>
+          </NavLink>
+
+          {/* <Menu as="div" className="relative inline-block text-left">
             <div>
               <Menu.Button className="inline-flex justify-center items-center  rounded-md  shadow-sm px-4 py-2 bg-earth text-white text-lg xl:text-xl opacity-70 hover:opacity-100">
-                <span>About Us</span>
-                <ChevronDownIcon
+                <a href="/about">
+                  <span>About Us</span>
+                </a> */}
+
+          {/* <ChevronDownIcon
                   className="-mr-1 ml-2 h-5 w-5"
                   aria-hidden="true"
-                />
-              </Menu.Button>
-            </div>
+                /> */}
+          {/* </Menu.Button>
+            </div> */}
 
-            <Transition
+          {/* <Transition
               as={Fragment}
               enter="transition ease-out duration-100"
               enterFrom="transform opacity-0 scale-95"
@@ -454,8 +469,8 @@ export function NavBar() {
                   </Menu.Item>
                 </div>
               </Menu.Items>
-            </Transition>
-          </Menu>
+            </Transition> */}
+          {/* </Menu> */}
 
           <NavLink
             className={(navData) =>

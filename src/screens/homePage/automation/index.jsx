@@ -16,9 +16,9 @@ const Automation = () => {
     arrows: true,
     breakpoints: {
       768: {
-        arrows: false,
-      },
-    },
+        arrows: false
+      }
+    }
   };
 
   return (
@@ -28,9 +28,9 @@ const Automation = () => {
       </h1>
       <Splide
         options={splideOptions}
-        className="font-regular md:w-10/12 2xl:w-9/12 md:mx-auto max-h-min bg-white rounded-3xl max-w-screen-2xl mx-2  "
+        className="font-regular md:w-10/12 2xl:w-9/12 md:mx-auto max-h-min  rounded-3xl max-w-screen-2xl mx-2  "
       >
-        <SplideSlide className="md:flex flex-wrap px-3">
+        <SplideSlide className="md:flex flex-wrap px-3 bg-white">
           <div className="img-wrapper basis-80 flex-1  h-[18rem] lg:h-[30rem]  lg:p-4 ">
             <img
               src={dummy}
@@ -42,7 +42,7 @@ const Automation = () => {
             <h1 className="font-title text-earth font-bold  py-2 pt-4   md:py-8 ">
               Milk Union
             </h1>
-            <span className="para-text md:w-10/12 text-xl lg:text-2xl ">
+            <span className=" md:w-10/12 text-xl lg:text-2xl ">
               digiGAI helps milk unions & milk producers easily monitor the
               health of their herd and increases the accuracy of the breeding
               process with hi-tech breeding products. Milk producers can boost
@@ -52,7 +52,7 @@ const Automation = () => {
           </div>
         </SplideSlide>
 
-        <SplideSlide className="md:flex flex-wrap px-3">
+        <SplideSlide className="md:flex flex-wrap px-3 bg-color">
           <div className="img-wrapper basis-80 flex-1  h-[18rem] lg:h-[30rem]  lg:p-4 ">
             <img
               src={dummy}
@@ -61,10 +61,10 @@ const Automation = () => {
             />
           </div>
           <div className="text-wrapper basis-80 flex-1 flex p-3 md:p-5 lg:px-10 justify-start flex-col flex-nowrap  gap-2 md:gap-5">
-            <h1 className="font-title text-earth font-bold  py-2 pt-4   md:py-8 ">
+            <h1 className="font-title text-white font-bold  py-2 pt-4 md:py-8 ">
               Milk Distributors / Dairy Farmers
             </h1>
-            <span className="para-text md:w-10/12 text-xl lg:text-2xl ">
+            <span className=" md:w-10/12 text-xl lg:text-2xl text-white">
               Precision-based technology helps optimize cattle management
               practices and contributes to animal healthcare to enhance milk
               production sustainably. You can make informed decisions with
@@ -74,7 +74,7 @@ const Automation = () => {
           </div>
         </SplideSlide>
 
-        <SplideSlide className="md:flex flex-wrap px-3">
+        <SplideSlide className="md:flex flex-wrap px-3 bg-white">
           <div className="img-wrapper basis-80 flex-1  h-[18rem] lg:h-[30rem]  lg:p-4 ">
             <img
               src={dummy}
@@ -86,7 +86,7 @@ const Automation = () => {
             <h1 className="font-title text-earth font-bold  py-2 pt-4   md:py-8 ">
               Veterinarians
             </h1>
-            <span className="para-text md:w-10/12 text-xl lg:text-2xl ">
+            <span className=" md:w-10/12 text-xl lg:text-2xl ">
               No more errors! digiGAI offers the opportunity to access a
               reliable database about herd health and their breeding cycle to
               the veterinary doctors. With easy-to-use technology, veterinary
@@ -95,7 +95,7 @@ const Automation = () => {
             </span>
           </div>
         </SplideSlide>
-        <SplideSlide className="md:flex flex-wrap px-3">
+        <SplideSlide className="md:flex flex-wrap px-3 bg-color">
           <div className="img-wrapper basis-80 flex-1  h-[18rem] lg:h-[30rem]  lg:p-4 ">
             <img
               src={dummy}
@@ -104,10 +104,10 @@ const Automation = () => {
             />
           </div>
           <div className="text-wrapper basis-80 flex-1 flex p-3 md:p-5 lg:px-10 justify-start flex-col flex-nowrap  gap-2 md:gap-5">
-            <h1 className="font-title text-earth font-bold  py-2 pt-4   md:py-8 ">
+            <h1 className="font-title  font-bold  py-2 pt-4   md:py-8 text-white">
               NGOs
             </h1>
-            <span className="para-text md:w-10/12 text-xl lg:text-2xl ">
+            <span className=" md:w-10/12 text-xl lg:text-2xl text-white">
               We help organizations optimize dairy production and animal
               healthcare by delivering affordable services and products. Our
               team of veterinarians also assists NGOs to integrate precision

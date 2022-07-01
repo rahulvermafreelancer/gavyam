@@ -7,9 +7,9 @@
   width: 65%;
   background-image: url(../../../assets/dve/hero.png),
     url(../../../assets/dve/dve.png);
-  /* background-size: contain; */
-  background-size: auto 90%, 60% auto;
-  background-position: right 0px bottom 0px;
+  background-size: contain;
+  background-size: auto 105%, 63% auto;
+  background-position: right 12px bottom 0px;
   background-repeat: no-repeat;
 }
 @media screen and (max-width: 900px) {

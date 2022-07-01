@@ -84,7 +84,7 @@
   width: 50%;
   background-image: url(../../assets/bolus/dashboard-bg.svg);
   background-repeat: no-repeat no-repeat;
-  background-position: left bottom;
+  background-position: left -70% bottom;
 }
 .main-section-width-align-right {
   width: 50%;

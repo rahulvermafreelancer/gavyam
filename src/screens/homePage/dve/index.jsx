@@ -16,7 +16,9 @@ const DVE = () => {
             100% accuracy and success rate.
           </span>
           <div className="my-9">
-            <MasterBtn bgColor="brown" text="Read More" />
+            <a href="products/dve">
+              <MasterBtn bgColor="brown" text="Read More" />
+            </a>
           </div>
         </div>
       </section>
