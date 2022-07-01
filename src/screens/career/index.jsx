@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./index.css";
+import { MasterBtn } from "../../components/masterBtn";
+import File from "./file.svg";
+import { FilePicker } from "react-file-picker";
 
 export const Career = () => {
   const [isValid, setIsValid] = useState(false);
@@ -20,22 +23,17 @@ export const Career = () => {
 
   return (
     <>
-      <div className="header-section">
+      <div className="header-section" style={{ paddingBottom: "5%" }}>
         <div className="page-section-banner">
-          <p className="page-sections-text font-regular text-white">Home</p>
+          <p className="page-section-text font-regular text-white">Home</p>
           <img src="/assets/arrowLeft.svg" alt="arrow" />
-          <p className="page-sections-text font-regular text-white">Career</p>
+          <p className="page-section-text font-regular text-white">Career</p>
         </div>
         <div className="main-section">
           <h1 className="main-section-title font-regular font-bold text-white">
             CAREER
           </h1>
-          <div className="color-bar" />
-          <p className="para-text-desc font-light text-white">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis.
-          </p>
+          <div className="color-bar-career" />
         </div>
       </div>
 
@@ -91,19 +89,36 @@ export const Career = () => {
           </div>
           <div className="contact-form-div">
             <div className="input-main-contact-div">
-              <div>
+              <div
+                style={{
+                  marginBottom: "4%",
+                  width: "45%"
+                }}
+              >
                 <input
                   type="text"
                   placeholder="Your name"
                   className="input-field-size font-regular"
+                  style={{
+                    paddingLeft: 15,
+                    fontWeight: "bold",
+                    color: "#000"
+                  }}
                 />
               </div>
-              <div>
+              <div
+                style={{ marginBottom: "4%", marginLeft: "3%", width: "45%" }}
+              >
                 <input
                   type="email"
                   placeholder="Email"
                   className="input-field-size font-regular"
                   onChange={validateEmail}
+                  style={{
+                    paddingLeft: 15,
+                    fontWeight: "bold",
+                    color: "#000"
+                  }}
                 />
 
                 <div className={`message ${isValid ? "success" : "error"}`}>
@@ -113,64 +128,76 @@ export const Career = () => {
             </div>
 
             <div className="input-main-contact-div">
-              <div>
+              <div style={{ marginBottom: "4%", width: "45%" }}>
                 <input
                   type="number"
                   placeholder="Phone number"
                   className="input-field-size font-regular"
+                  style={{
+                    paddingLeft: 15,
+                    fontWeight: "bold",
+                    color: "#000"
+                  }}
                 />
               </div>
-              <div>
+              <div
+                style={{ marginBottom: "2%", marginLeft: "3%", width: "45%" }}
+              >
                 <input
                   type="text"
                   placeholder="Orgainization"
                   className="input-field-size font-regular"
+                  style={{
+                    paddingLeft: 15,
+                    fontWeight: "bold",
+                    color: "#000"
+                  }}
                 />
               </div>
             </div>
 
             <div className="input-main-contact-div">
-              <div>
+              <div style={{ width: "95%", marginBottom: "2%" }}>
                 <input
                   type="textarea"
                   placeholder="Your Message"
-                  className="input-field-size font-regular"
+                  className="input-field-size-large font-regular"
+                  style={{
+                    paddingLeft: 15,
+                    fontWeight: "bold",
+                    color: "#000"
+                  }}
                 />
               </div>
             </div>
-            <div className="input-main">
-              <div>
-                <input
-                  type="file"
-                  placeholder="Your Message"
-                  className="input-field-size-large"
-                />
-              </div>
+
+            <div className="input-main-contact-div">
+              <FilePicker
+                style={{ width: "95%", marginBottom: "4%" }}
+                extensions={["md"]}
+                onChange={(FileObject) => {
+                  console.log(FileObject);
+                  console.log("File Uploaded");
+                }}
+                onError={(errMsg) => "error"}
+              >
+                <div className="input-field-size-large-dotted">
+                  <div className="upload-resume-div">
+                    <img src={File} width="20px" alt="filepicker" />
+                    <p className="font-regular">Upload resume</p>
+                  </div>
+                  <p className="font-regular text-center">
+                    The file size is not more than 10MB. JPEG, PDF, DOC
+                  </p>
+                </div>
+              </FilePicker>
             </div>
-            <div className="send-to-us-button">
-              <p className="send-text">Send to us</p>
-              <div className="arrow-align">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="27.11"
-                  height="18.081"
-                  viewBox="0 0 27.11 18.081"
-                  className="fill-current"
-                  stroke="#B55219"
-                >
-                  <path
-                    id="Icon_ionic-ios-arrow-round-forward"
-                    data-name="Icon ionic-ios-arrow-round-forward"
-                    d="M25.164,11.6a1.23,1.23,0,0,0-.009,1.733l5.725,5.735H9.09a1.224,1.224,0,0,0,0,2.448H30.87l-5.725,5.735a1.239,1.239,0,0,0,.009,1.733,1.219,1.219,0,0,0,1.723-.009l7.759-7.816h0a1.375,1.375,0,0,0,.254-.386,1.168,1.168,0,0,0,.094-.471,1.227,1.227,0,0,0-.348-.857l-7.759-7.816A1.2,1.2,0,0,0,25.164,11.6Z"
-                    transform="translate(-7.875 -11.252)"
-                  />
-                </svg>
-              </div>
-            </div>
+          </div>
+          <div style={{ marginLeft: "2%" }}>
+            <MasterBtn bgColor="brown" text="Send to us" />
           </div>
         </div>
       </div>
-
       <div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.245174446712!2d75.86088531535101!3d22.756280831937364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd0e0fffffff%3A0x9bb2a69245d1bc90!2sTalati%20Marketing!5e0!3m2!1sen!2sin!4v1640081278511!5m2!1sen!2sin"

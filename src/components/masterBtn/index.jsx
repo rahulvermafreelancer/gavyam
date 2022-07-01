@@ -4,9 +4,9 @@ export const MasterBtn = ({ bgColor, text }) => {
   return (
     <button
       data="red"
-      className={`border-2 border-${bgColor} rounded-full flex flex-nowrap items-center text-${bgColor} justify-center gap-4 hvr-bounce-to-right  overflow-hidden py-4 text-2xl my-1  px-10  hvr-bounce-to-right-${bgColor}`}
+      className={`border-2 border-${bgColor} rounded-full flex flex-nowrap items-center text-${bgColor} justify-center gap-4 hvr-bounce-to-right  overflow-hidden py-3 text-xl my-1  px-8  hvr-bounce-to-right-${bgColor}`}
     >
-      {text}
+      <p className="font-regular ">{text}</p>
 
       <svg
         xmlns="http://www.w3.org/2000/svg"

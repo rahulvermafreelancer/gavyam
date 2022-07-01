@@ -8,10 +8,9 @@
   max-width: 1536px;
   margin: 0 auto;
 }
-.page-sections-text {
+.page-section-text {
   font-size: 1vw;
   padding-right: 1%;
-  color: #ffffff;
 }
 .main-section {
   background-image: url("../../assets/coursal/bg.png");
@@ -22,48 +21,45 @@
   font-size: 3vw;
   text-align: center;
 }
-.color-bar {
+.color-bar-career {
   background-color: #b55219;
   padding: 3px;
-  width: 5%;
+  width: 2%;
   margin: 0 auto;
   border-radius: 10px;
 }
-.para-text-desc {
-  font-size: 1.5vw;
-  text-align: center;
-  padding-top: 1.5%;
-  width: 80%;
-  margin: 0 auto;
-}
+
 .contact-main-section-random {
-  margin-top: 5%;
+  width: 85%;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   margin-bottom: 10%;
 }
 .contact-section {
-  width: 50%;
+  width: 40%;
+  padding-top: 5%;
 }
 .contact-section-left {
-  width: 50%;
+  width: 60%;
+  padding-top: 5%;
 }
 .contact-title-text {
   color: #b55219;
-  font-size: 2.21vw;
+  font-size: 1.5vw;
 }
 .contact-para-text {
-  font-size: 1.56vw;
+  font-size: 1vw;
 }
 .contact-office-title {
-  font-size: 1.82vw;
+  font-size: 1.2vw;
   font-weight: 600;
 }
 .contact-office-para {
-  font-size: 1.43vw;
+  font-size: 1.1vw;
 }
 .heading-section {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   padding: 2%;
 }
@@ -80,80 +76,75 @@
 }
 
 .contact-form-div {
-  width: 80%;
   padding: 2%;
 }
 
 .input-main-contact-div {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 2%;
-  opacity: 0.7;
+  width: 80%;
+  margin-top: 10px;
 }
 .input-field-size {
   border: 1px solid black;
-  padding: 5%;
-  border-radius: 10px;
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
 }
 .input-field-size-large {
   border: 1px solid black;
-  padding: 5%;
-  border-radius: 10px;
+  width: 100%;
+  height: 168px;
+  border-radius: 5px;
 }
-
-.send-to-us-button {
-  border: 2px solid #b55219;
-  width: 30%;
+.input-field-size-large-dotted {
+  border: 4px dotted black;
+  width: 100%;
+  height: 168px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+.upload-resume-div {
   display: flex;
   flex-direction: row;
-  padding: 15px;
-  border-radius: 40px;
-  margin-left: 15px;
+  justify-content: center;
   margin-top: 8%;
 }
-.send-text {
-  color: #b55219;
-  font-size: 1.43vw;
-}
-.arrow-align {
-  margin-left: 15px;
-  margin-top: 10px;
-}
 
-@media only screen and (max-width: 1440px) {
-  .contact-form-div {
-    width: 100%;
-  }
-  .input-main-contact-div {
-    flex-direction: column;
-  }
-  .input-field-size {
-    margin-top: 15px;
-  }
-  .send-to-us-button {
-    width: 40%;
-  }
-}
+/* @media only screen and (max-width: 1440px) {
+     .contact-form-div {
+       width: 100%;
+     }
+     .input-main-contact-div {
+       flex-direction: column;
+     }
+     .input-field-size {
+       margin-top: 15px;
+     }
+     .send-to-us-button {
+       width: 40%;
+     }
+   } */
 
-@media only screen and (max-width: 1080px) {
-  .send-to-us-button {
-    width: 70%;
-  }
-}
+/* @media only screen and (max-width: 1080px) {
+     .send-to-us-button {
+       width: 70%;
+     }
+   } */
 
-@media only screen and (max-width: 750px) {
-  .contact-main-section-random {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 5%;
-  }
-  .send-to-us-button {
-    width: 100%;
-  }
-  .header-section {
-    margin-top: 5%;
-  }
-}
+/* @media only screen and (max-width: 750px) {
+     .contact-main-section-random {
+       display: flex;
+       flex-direction: column-reverse;
+       width: 80%;
+       margin: 0 auto;
+       margin-top: 5%;
+     }
+     .send-to-us-button {
+       width: 100%;
+     }
+     .header-section {
+       margin-top: 5%;
+     }
+   } */
