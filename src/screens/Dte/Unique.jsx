@@ -22,8 +22,8 @@ export const Unique = () => {
                 Live temperature reading
               </h1>
               <p className="unique-card-para font-regular ">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium.
+                Accurate display of the uniform temperature of the liquid in the
+                device helps thaw semen efficiently for precise time.
               </p>
             </div>
           </div>
@@ -39,8 +39,8 @@ export const Unique = () => {
                 Thinnest design in the market
               </h1>
               <p className="unique-card-para font-regular ">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium.
+                Compact and easy-to-carry device that eases commute and helps AI
+                workers save time and effort.
               </p>
             </div>
           </div>
@@ -56,8 +56,8 @@ export const Unique = () => {
                 Compatible to store frozen semen & sex-sorted semen
               </h1>
               <p className="unique-card-para font-regular ">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium.
+                Thaw any semen straws at the ideal temperature, without
+                guesswork and errors.
               </p>
             </div>
           </div>

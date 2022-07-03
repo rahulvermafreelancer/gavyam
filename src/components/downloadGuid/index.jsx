@@ -9,7 +9,14 @@ export const DownloadGuid = () => {
         data="red"
         className={` border-2 border-brown rounded-full flex flex-nowrap items-center text-earth justify-center gap-4 hvr-bounce-to-right  overflow-hidden py-4 text-xl my-1 px-4 hvr-bounce-to-right-brown`}
       >
-        <p className="font-regular "> Download the brochure</p>
+        <p className="font-regular" contenteditable="true">
+          <a
+            href={require("../../assets/file/GavyamBrochure.pdf")}
+            download="myFile"
+          >
+            Download the brochure
+          </a>
+        </p>
 
         <img src={DownloadIcon} alt="download-icon" />
       </button>

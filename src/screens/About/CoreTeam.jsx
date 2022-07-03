@@ -27,20 +27,13 @@ export const CoreTeam = () => {
 
         <div className="team-card-body-orange">
           <p className="card-text-para font-regular">
-            Sed Ut Perspiciatis Unde Omnis Iste Natus Error Sit Voluptatem
-            Accusantium Doloremque Laudantium, Totam Rem Aperiam, Eaque Ipsa
-            Quae Ab Illo Inventore Veritatis Et Quasi Architecto Beatae Vitae
-            Dicta Sunt Explicabo. Nemo Enim Ipsam Voluptatem Quia Voluptas Sit
-            Aspernatur Aut Odit Aut Fugit, Sed Quia Consequuntur Magni Dolores
-            Eos Qui Ratione Voluptatem Sequi Nesciunt. Neque Porro Quisquam Est,
-            Qui Dolorem Ipsum Quia Dolor Sit Amet, Consectetur, Adipisci Velit,
-            Sed Quia Non Numquam Eius Modi Tempora Incidunt Ut Labore Et Dolore
-            Magnam Aliquam Quaerat Voluptatem. Ut Enim Ad Minima Veniam, Quis
-            Nostrum Exercitationem Ullam Corporis Suscipit Laboriosam, Nisi Ut
-            Aliquid Ex Ea Commodi Consequatur? Quis Autem Vel Eum Iure
-            Reprehenderit Qui In Ea Voluptate Velit Esse Quam Nihil Molestiae
-            Consequatur, Vel Illum Qui Dolorem Eum Fugiat Quo Voluptas Nulla
-            Pariatur?"
+            Team is the core strength that builds a dream into a mission, and a
+            mission into revolution. Our incredibly talented team works
+            tirelessly to ease up every dairy farmer's life with digitalization
+            and optimize cattle management and breeding with innovative
+            solutions. Each member of our team brings different skillset to the
+            table, and their ideologies aligned for one single vision is what
+            makes us best in the business.
           </p>
         </div>
 

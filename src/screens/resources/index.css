@@ -18,8 +18,10 @@
   background-position: bottom right;
 }
 .main-section-title {
-  font-size: 3vw;
+  font-size: 2.8vw;
   text-align: center;
+  margin-top: 1%;
+  padding-top: 5%;
 }
 .color-bar {
   background-color: #b55219;
@@ -30,7 +32,7 @@
 }
 
 .para-text-desc {
-  font-size: 1.5vw;
+  font-size: 1.1vw;
   text-align: center;
   padding-top: 1.5%;
 }
@@ -58,15 +60,15 @@
   border-radius: 10px;
 }
 .resource-para-text {
-  font-size: 1.43vw;
+  font-size: 1.1vw;
   text-align: center;
 }
 .heading-resource-text {
   color: #b55219;
-  font-size: 3.12vw;
+  font-size: 2.7vw;
 }
 .resources-para-text {
-  font-size: 1.56vw;
+  font-size: 1.1vw;
   color: #1f2d16;
   margin-top: 2%;
 }

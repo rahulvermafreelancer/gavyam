@@ -18,7 +18,7 @@
   background-position: bottom right;
 }
 .main-section-title {
-  font-size: 3vw;
+  font-size: 2.4vw;
   text-align: center;
 }
 .color-bar {
@@ -29,7 +29,7 @@
   border-radius: 10px;
 }
 .para-text-desc {
-  font-size: 1.5vw;
+  font-size: 1.1vw;
   text-align: center;
   padding-top: 1.5%;
 }
@@ -44,7 +44,7 @@
   padding-top: 5%;
 }
 .about-section-heading {
-  font-size: 3.3vw;
+  font-size: 2.8vw;
   color: #b55219;
   width: 50%;
 }
@@ -54,7 +54,7 @@
   margin-top: 5%;
 }
 .about-para {
-  font-size: 1.2vw;
+  font-size: 1vw;
   width: 45%;
   margin: 2%;
 }
@@ -78,7 +78,7 @@
 }
 .mission-title {
   color: #b55219;
-  font-size: 2vw;
+  font-size: 1.7vw;
 }
 .main-section-width-align {
   width: 50%;
@@ -93,7 +93,7 @@
   background-position: right bottom;
 }
 .mission-paragraph {
-  font-size: 2vw;
+  font-size: 1.4vw;
   margin-top: 5%;
   width: 80%;
 }
@@ -108,7 +108,7 @@
   border-radius: 30px;
 }
 .easy-title {
-  font-size: 3.77vw;
+  font-size: 3vw;
   color: #ffffff;
   padding-left: 5%;
   padding-top: 5%;
@@ -116,7 +116,6 @@
 .easy-value-card {
   display: flex;
   flex-direction: row;
-  /* margin-top: 5%; */
   padding-top: 5%;
 }
 .easy-value-card-body {

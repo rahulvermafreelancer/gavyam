@@ -62,7 +62,7 @@ const Automation = () => {
           </div>
           <div className="text-wrapper basis-80 flex-1 flex p-3 md:p-5 lg:px-10 justify-start flex-col flex-nowrap  gap-2 md:gap-5">
             <h1 className="font-title text-white font-bold  py-2 pt-4 md:py-8 ">
-              Milk Distributors / Dairy Farmers
+              Milk Distributors/Dairy Farmers
             </h1>
             <span className=" md:w-10/12 text-xl lg:text-2xl text-white">
               Precision-based technology helps optimize cattle management
