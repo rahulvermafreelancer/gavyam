@@ -1,10 +1,20 @@
 import React, { useState } from "react";
 import "./index.css";
 import { MasterBtn } from "../../components/masterBtn";
+import * as emailjs from "emailjs-com";
+
+var SERVICE_ID = "service_qrp0wkk";
+var TEMPLATE_ID = "template_d3jo752";
+var USER_ID = "uLmnreJNpzx3y4Ivf";
 
 export const Contact = () => {
   const [isValid, setIsValid] = useState(false);
   const [message, setMessage] = useState("");
+  const [name, setName] = useState("");
+  const [emailId, setEmailId] = useState("");
+  const [contact, setContact] = useState("");
+  const [Orgainization, setOrganisation] = useState("");
+  const [msg, setMsg] = useState("");
 
   const emailRegex = /\S+@\S+\.\S+/;
 
@@ -17,6 +27,28 @@ export const Contact = () => {
       setIsValid(false);
       setMessage("Please enter a valid email!");
     }
+  };
+
+  const handleClick = () => {
+    // validateEmail();
+
+    var data = {
+      to_email: emailId,
+      name: name,
+      contact: contact,
+      email: emailId,
+      Orgainization: Orgainization,
+      msg: msg
+    };
+
+    emailjs.send(SERVICE_ID, TEMPLATE_ID, data, USER_ID).then(
+      (response) => {
+        console.log(response.status, response.text);
+      },
+      (err) => {
+        console.log(err);
+      }
+    );
   };
 
   return (
@@ -98,6 +130,8 @@ export const Contact = () => {
                 <input
                   type="text"
                   placeholder="Your name"
+                  value={name}
+                  onChange={(event) => setName(event.target.value)}
                   className="input-field-size font-regular"
                   style={{
                     paddingLeft: 15,
@@ -112,8 +146,9 @@ export const Contact = () => {
                 <input
                   type="email"
                   placeholder="Email"
+                  value={emailId}
+                  onChange={(event) => setEmailId(event.target.value)}
                   className="input-field-size font-regular"
-                  onChange={validateEmail}
                   style={{
                     paddingLeft: 15,
                     fontWeight: "bold",
@@ -132,6 +167,8 @@ export const Contact = () => {
                 <input
                   type="number"
                   placeholder="Phone number"
+                  value={contact}
+                  onChange={(event) => setContact(event.target.value)}
                   className="input-field-size font-regular"
                   style={{
                     paddingLeft: 15,
@@ -146,6 +183,8 @@ export const Contact = () => {
                 <input
                   type="text"
                   placeholder="Orgainization"
+                  value={Orgainization}
+                  onChange={(event) => setOrganisation(event.target.value)}
                   className="input-field-size font-regular"
                   style={{
                     paddingLeft: 15,
@@ -161,6 +200,8 @@ export const Contact = () => {
                 <input
                   type="textarea"
                   placeholder="Your Message"
+                  value={msg}
+                  onChange={(event) => setMsg(event.target.value)}
                   className="input-field-size-large font-regular"
                   style={{
                     paddingLeft: 15,
@@ -171,7 +212,7 @@ export const Contact = () => {
               </div>
             </div>
           </div>
-          <div style={{ marginLeft: "2%" }}>
+          <div style={{ marginLeft: "2%" }} onClick={handleClick}>
             <MasterBtn bgColor="brown" text="Send to us" />
           </div>
         </div>

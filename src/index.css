@@ -13,7 +13,7 @@
   font-family: "regular";
   src: url(./assets/fonts/regular.ttf);
 }
-/* 
+
 @layer components {
   .d {
     @apply border-2 border-earth;
@@ -45,4 +45,4 @@
   a {
     @apply hover:underline  underline-offset-4;
   }
-} */
+}
