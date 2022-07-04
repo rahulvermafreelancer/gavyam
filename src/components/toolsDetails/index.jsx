@@ -3,7 +3,7 @@ import "./index.css";
 
 export const ToolsDetails = ({ title, topImage, downImage }) => {
   return (
-    <div className="tools-details-main ">
+    <div className="tools-details-main" style={{ backgroundColor: "#fff" }}>
       <h1 className="tools-title font-regular font-bold">{title}</h1>
       <div className="image-section-tools">
         <img src={topImage} alt="top" />

@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./index.css";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   const settings = {
@@ -36,9 +37,7 @@ const Banner = () => {
             </div>
           </div>
           <div className="about-button">
-            <a href="/about">
-              <MasterBtn bgColor="brown" text="About Us" />
-            </a>
+            <MasterBtn bgColor="brown" text="About Us" link="/about" />
           </div>
         </div>
 

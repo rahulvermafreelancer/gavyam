@@ -49,8 +49,8 @@
 .desh-section-one {
   background-image: url(../../assets//bolus/dashboard-bg.svg);
   background-repeat: no-repeat no-repeat;
-  background-size: 30%;
-  background-position: left center;
+  background-size: 20%;
+  background-position: -13% 70%;
   display: flex;
   justify-content: right;
   margin-top: 8%;
@@ -58,8 +58,8 @@
 .desh-section-two {
   background-image: url(../../assets//bolus/dashboard-bg.svg);
   background-repeat: no-repeat no-repeat;
-  background-size: 30%;
-  background-position: right bottom;
+  background-size: 20%;
+  background-position: 113% 90%;
   display: flex;
   justify-content: left;
   margin-top: 8%;

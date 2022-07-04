@@ -12,10 +12,11 @@
   font-size: 1vw;
   padding-left: 1%;
 }
-.main-section {
+.main-section-one {
   background-image: url("../../assets/coursal/bg.png");
   background-repeat: no-repeat, no-repeat;
-  background-position: bottom right;
+  background-position: 85% 85px;
+  background-size: 30%;
 }
 .main-section-title {
   font-size: 3vw;

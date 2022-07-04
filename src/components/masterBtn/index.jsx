@@ -1,12 +1,16 @@
 import "./index.css";
 
-export const MasterBtn = ({ bgColor, text }) => {
+export const MasterBtn = ({ bgColor, text, link }) => {
   return (
     <button
       data="red"
       className={`border-2 border-${bgColor} cursor-pointer rounded-full flex flex-nowrap items-center text-${bgColor} justify-center gap-4 hvr-bounce-to-right overflow-hidden py-5 text-xl my-1  px-12  hvr-bounce-to-right-${bgColor}`}
     >
-      <p className="font-regular ">{text}</p>
+      <p className="font-regular link-text">
+        <a href={link} style={{ textDecoration: "none" }}>
+          {text}
+        </a>
+      </p>
 
       <svg
         xmlns="http://www.w3.org/2000/svg"

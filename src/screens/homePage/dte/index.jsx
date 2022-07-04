@@ -18,9 +18,7 @@ const DTE = () => {
             semen.
           </span>
           <div className="my-9">
-            <a href="/products/dte">
-              <MasterBtn text="Read More" bgColor="brown" />
-            </a>
+            <MasterBtn text="Read More" bgColor="brown" link="/products/dte" />
           </div>
         </div>
       </section>

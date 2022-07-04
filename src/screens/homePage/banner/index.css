@@ -10,15 +10,12 @@
   margin-top: 15rem;
 }
 @media only screen and (max-width: 750px) {
-  .banner-main-class-container {
-    flex-direction: column;
+  .banner-image-container {
+    width: 50%;
+    margin-top: 0;
   }
   .banner-text-conatiner {
-    width: 100%;
-  }
-  .banner-image-container {
-    width: 80%;
-    margin-top: 0;
+    width: 50%;
   }
 }
 .banner-text-background-container {

@@ -15,3 +15,8 @@
   text-align: center;
   line-height: 2.86vw;
 }
+@media only screen and (max-width: 750px) {
+  .custom-mar {
+    padding-top: 60%;
+  }
+}

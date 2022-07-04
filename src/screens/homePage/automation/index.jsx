@@ -30,8 +30,8 @@ const Automation = () => {
         options={splideOptions}
         className="font-regular md:w-10/12 2xl:w-9/12 md:mx-auto max-h-min  rounded-3xl max-w-screen-2xl mx-2  "
       >
-        <SplideSlide className="md:flex flex-wrap px-3 bg-white">
-          <div className="img-wrapper basis-80 flex-1  h-[18rem] lg:h-[30rem]  lg:p-4 ">
+        <SplideSlide className="md:flex flex-wrap px-3 bg-white  rounded-3xl bg-image">
+          <div className="img-wrapper basis-80 flex-1  h-[18rem] lg:h-[30rem] lg:p-4 ">
             <img
               src={dummy}
               alt=""
@@ -52,7 +52,7 @@ const Automation = () => {
           </div>
         </SplideSlide>
 
-        <SplideSlide className="md:flex flex-wrap px-3 bg-color">
+        <SplideSlide className="md:flex flex-wrap px-3 bg-color  rounded-3xl bg-image-white ">
           <div className="img-wrapper basis-80 flex-1  h-[18rem] lg:h-[30rem]  lg:p-4 ">
             <img
               src={dummy}
@@ -74,7 +74,7 @@ const Automation = () => {
           </div>
         </SplideSlide>
 
-        <SplideSlide className="md:flex flex-wrap px-3 bg-white">
+        <SplideSlide className="md:flex flex-wrap px-3 bg-white  rounded-3xl bg-image">
           <div className="img-wrapper basis-80 flex-1  h-[18rem] lg:h-[30rem]  lg:p-4 ">
             <img
               src={dummy}
@@ -95,7 +95,7 @@ const Automation = () => {
             </span>
           </div>
         </SplideSlide>
-        <SplideSlide className="md:flex flex-wrap px-3 bg-color">
+        <SplideSlide className="md:flex flex-wrap px-3 bg-color  rounded-3xl bg-image-white ">
           <div className="img-wrapper basis-80 flex-1  h-[18rem] lg:h-[30rem]  lg:p-4 ">
             <img
               src={dummy}
@@ -108,7 +108,7 @@ const Automation = () => {
               NGOs
             </h1>
             <span
-              className="automation-para-textP
+              className="automation-para-text
              md:w-10/12 text-xl lg:text-2xl text-white"
             >
               We help organizations optimize dairy production and animal

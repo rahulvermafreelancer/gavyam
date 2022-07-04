@@ -7,8 +7,8 @@
   width: 65%;
   background-image: url(../../../assets/dve/hero.png),
     url(../../../assets/dve/dve.png);
-  /* background-size: contain; */
-  background-size: auto 65%, 65% auto;
+  background-size: contain;
+  background-size: auto 85%, 65% auto;
   background-position: right 10px bottom -5px;
   background-repeat: no-repeat;
 }
@@ -39,8 +39,8 @@
 }
 .DVE-para {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.82vw;
-  color: #1f2d16;
+  font-size: 1.5vw;
   font-weight: 400;
-  line-height: 2.86vw;
+  line-height: 2vw;
+  color: #1f2d16;
 }

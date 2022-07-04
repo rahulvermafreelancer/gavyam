@@ -48,12 +48,24 @@ coursal-bg-image {
 }
 .automation-heading {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 3.77vw;
+  font-size: 3.2vw;
   line-height: 4.42vw;
   font-weight: bold;
 }
 .automation-para-text {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.82vw;
-  line-height: 2.86vw;
+  font-size: 1.5vw;
+  line-height: 2vw;
+}
+.bg-image {
+  background-image: url("../../../assets/coursal/bg.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 110% 130%;
+  background-size: 30%;
+}
+.bg-image-white {
+  background-image: url("../../../assets/coursal/bg-white.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 100% 130%;
+  background-size: 25%;
 }

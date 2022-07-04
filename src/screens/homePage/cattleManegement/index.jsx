@@ -6,7 +6,7 @@ export const CattleManagement = () => {
     <section className="my-20 xl:my-28">
       <section className="max-w-screen-2xl  lg:w-11/12 mx-auto flex flex-col gap-sm flex-nowrap font-regular ">
         <section className="flex flex-col gap-6 lg:gap-8 px-4 py-3 ">
-          <h1 className="cattle-text-heading md:px-2 py-6 w-10/12  max-w-[32rem] leading-snug text-brown">
+          <h1 className="cattle-text-heading md:px-2 py-6 w-10/12  max-w-[45rem] text-brown">
             Cattle management made easy!
           </h1>
           <span className="cattle-text-color">

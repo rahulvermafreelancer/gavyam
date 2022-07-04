@@ -15,7 +15,8 @@
 .main-section {
   background-image: url("../../assets/coursal/bg.png");
   background-repeat: no-repeat, no-repeat;
-  background-position: bottom right;
+  background-position: 85% 85px;
+  background-size: 30%;
 }
 .main-section-title {
   font-size: 2.4vw;
@@ -84,13 +85,15 @@
   width: 50%;
   background-image: url(../../assets/bolus/dashboard-bg.svg);
   background-repeat: no-repeat no-repeat;
-  background-position: left -70% bottom;
+  background-position: left -35% bottom;
+  background-size: 40%;
 }
 .main-section-width-align-right {
   width: 50%;
   background-image: url(../../assets/dte/bg.png);
   background-repeat: no-repeat no-repeat;
-  background-position: right bottom;
+  background-position: 140% 90%;
+  background-size: 50%;
 }
 .mission-paragraph {
   font-size: 1.4vw;
@@ -100,6 +103,7 @@
 .vision-section {
   width: 80%;
   margin-top: 10%;
+  padding-bottom: 10%;
 }
 .easy-value-main {
   background-color: #545e46;
@@ -157,7 +161,6 @@
 .value-card-main-section {
   display: flex;
   flex-direction: row;
-
   width: 80%;
   margin: 0 auto;
   padding-bottom: 10%;
@@ -366,4 +369,68 @@
     display: flex;
     flex-direction: column;
   }
+}
+
+/* new design */
+
+.maincontainer {
+  width: 302px;
+  height: 299px;
+  margin: 10px;
+  float: left;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.back h2 {
+  position: absolute;
+}
+
+.back p {
+  position: absolute;
+  top: 50px;
+  font-size: 15px;
+}
+
+.front h2 {
+  position: absolute;
+  padding: 10px;
+  top: 200px;
+  color: #000;
+}
+
+/* style the maincontainer class with all child div's of class .front */
+.maincontainer > .front {
+  position: absolute;
+  transform: perspective(600px) rotateY(0deg);
+
+  width: 302px;
+  height: 290px;
+
+  backface-visibility: hidden; /* cant see the backside elements as theyre turning around */
+  transition: transform 0.5s linear 0s;
+}
+
+/* style the maincontainer class with all child div's of class .back */
+.maincontainer > .back {
+  position: absolute;
+  transform: perspective(600px) rotateY(180deg);
+  background: #262626;
+  color: #fff;
+  width: 302px;
+  height: 290px;
+  border-radius: 10px;
+  padding: 5px;
+  backface-visibility: hidden; /* cant see the backside elements as theyre turning around */
+  transition: transform 0.5s linear 0s;
+}
+
+.maincontainer:hover > .front {
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.maincontainer:hover > .back {
+  transform: perspective(600px) rotateY(0deg);
 }
