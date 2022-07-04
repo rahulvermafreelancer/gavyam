@@ -1,15 +1,17 @@
 .transform-heading {
-  font-size: 3vw;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 3.77vw;
+  font-weight: bold;
   color: #b55219;
-  max-width: 700px;
+  line-height: 4.42vw;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 5%;
 }
 .para-text {
-  font-size: 1.55vw;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.82vw;
   color: #1f2d16;
   text-align: center;
-}
-@media screen and (max-width: 1750px) {
-  .transform-heading {
-    max-width: 600px;
-  }
+  line-height: 2.86vw;
 }

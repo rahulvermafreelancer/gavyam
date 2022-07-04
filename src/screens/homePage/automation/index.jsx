@@ -23,7 +23,7 @@ const Automation = () => {
 
   return (
     <section className="bg-gray min-h-[10rem]  py-40 automation-master coursal-bg-image ">
-      <h1 className="blade-title font-bold text-brown font-regular px-4 text-center pb-24">
+      <h1 className="text-brown px-4 text-center pb-24 automation-heading">
         Embrace Automation
       </h1>
       <Splide
@@ -39,10 +39,10 @@ const Automation = () => {
             />
           </div>
           <div className="text-wrapper basis-80 flex-1 flex p-3 md:p-5 lg:px-10 justify-start flex-col flex-nowrap  gap-2 md:gap-5">
-            <h1 className="font-title text-earth font-bold  py-2 pt-4   md:py-8 ">
+            <h1 className="text-earth font-bold automation-heading py-2 pt-4   md:py-8 ">
               Milk Union
             </h1>
-            <span className=" md:w-10/12 text-xl lg:text-2xl ">
+            <span className="automation-para-text md:w-10/12 text-xl lg:text-2xl ">
               digiGAI helps milk unions & milk producers easily monitor the
               health of their herd and increases the accuracy of the breeding
               process with hi-tech breeding products. Milk producers can boost
@@ -61,10 +61,10 @@ const Automation = () => {
             />
           </div>
           <div className="text-wrapper basis-80 flex-1 flex p-3 md:p-5 lg:px-10 justify-start flex-col flex-nowrap  gap-2 md:gap-5">
-            <h1 className="font-title text-white font-bold  py-2 pt-4 md:py-8 ">
+            <h1 className="automation-heading text-white font-bold  py-2 pt-4 md:py-8 ">
               Milk Distributors/Dairy Farmers
             </h1>
-            <span className=" md:w-10/12 text-xl lg:text-2xl text-white">
+            <span className="automation-para-text md:w-10/12 text-xl lg:text-2xl text-white">
               Precision-based technology helps optimize cattle management
               practices and contributes to animal healthcare to enhance milk
               production sustainably. You can make informed decisions with
@@ -83,10 +83,10 @@ const Automation = () => {
             />
           </div>
           <div className="text-wrapper basis-80 flex-1 flex p-3 md:p-5 lg:px-10 justify-start flex-col flex-nowrap  gap-2 md:gap-5">
-            <h1 className="font-title text-earth font-bold  py-2 pt-4   md:py-8 ">
+            <h1 className="automation-heading text-earth font-bold  py-2 pt-4   md:py-8 ">
               Veterinarians
             </h1>
-            <span className=" md:w-10/12 text-xl lg:text-2xl ">
+            <span className="automation-para-text md:w-10/12 text-xl lg:text-2xl ">
               No more errors! digiGAI offers the opportunity to access a
               reliable database about herd health and their breeding cycle to
               the veterinary doctors. With easy-to-use technology, veterinary
@@ -104,10 +104,13 @@ const Automation = () => {
             />
           </div>
           <div className="text-wrapper basis-80 flex-1 flex p-3 md:p-5 lg:px-10 justify-start flex-col flex-nowrap  gap-2 md:gap-5">
-            <h1 className="font-title  font-bold  py-2 pt-4   md:py-8 text-white">
+            <h1 className="automation-heading py-2 pt-4 md:py-8 text-white">
               NGOs
             </h1>
-            <span className=" md:w-10/12 text-xl lg:text-2xl text-white">
+            <span
+              className="automation-para-textP
+             md:w-10/12 text-xl lg:text-2xl text-white"
+            >
               We help organizations optimize dairy production and animal
               healthcare by delivering affordable services and products. Our
               team of veterinarians also assists NGOs to integrate precision

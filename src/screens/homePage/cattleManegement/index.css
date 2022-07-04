@@ -1,6 +1,14 @@
+.cattle-text-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 3.77vw;
+  line-height: 4.42vw;
+  font-weight: bold;
+}
 .cattle-text-color {
-  font-size: 1.55vw;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.82vw;
   color: #1f2d16;
+  line-height: 2.86vw;
   width: 50%;
   margin: 0 auto;
 }
