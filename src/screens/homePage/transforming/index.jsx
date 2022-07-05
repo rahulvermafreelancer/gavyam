@@ -7,7 +7,7 @@ const SubBanner = () => {
         <h1 className="transform-heading">
           We are Transforming the Dairy Industry!
         </h1>
-        <p className="mx-auto para-text">
+        <p className="para-text">
           Offering innovative solutions to optimize time-consuming and
           error-prone procedures in cattle breeding and management.
         </p>

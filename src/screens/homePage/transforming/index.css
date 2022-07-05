@@ -1,6 +1,6 @@
 .transform-heading {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 3.77vw;
+  font-size: 3.5vw;
   font-weight: bold;
   color: #b55219;
   line-height: 4.42vw;
@@ -13,7 +13,9 @@
   font-size: 1.82vw;
   color: #1f2d16;
   text-align: center;
-  line-height: 2.86vw;
+  line-height: 2.5vw;
+  width: 80%;
+  margin: 0 auto;
 }
 @media only screen and (max-width: 750px) {
   .custom-mar {
