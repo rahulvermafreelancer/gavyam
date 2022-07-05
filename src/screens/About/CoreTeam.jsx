@@ -107,9 +107,11 @@ export const CoreTeam = () => {
           </h1>
           <p className="question-para font-regular">
             In case you haven't found the answer to your question, please feel
-            free to{" "}
+            free to
             <span style={{ color: "#B55219" }}>
-              <a href="/contact">contact us </a>
+              <a href="/contact" style={{ textDecoration: "none" }}>
+                contact us
+              </a>
             </span>
             , our customer support will be happy to help you.
           </p>
