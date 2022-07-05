@@ -9,7 +9,7 @@ export const CoreTeam = () => {
 
       <div
         style={{
-          width: "65%",
+          width: "75%",
           margin: "0 auto",
           display: "flex",
           flexDirection: "row",
