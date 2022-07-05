@@ -123,7 +123,16 @@ export const Bolus = () => {
           ))}
         </div>
       </div>
-      <DownloadGuid />
+      <div
+        style={{
+          width: "50%",
+          margin: "0 auto",
+          display: "flex",
+          justifyContent: "center"
+        }}
+      >
+        <DownloadGuid />
+      </div>
     </>
   );
 };

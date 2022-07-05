@@ -6,7 +6,7 @@ import {
   DownloadGuid,
   ToolsDetails
 } from "../../components";
-import CowTwo from "../../assets/dve/two.png"
+import CowTwo from "../../assets/dve/two.png";
 import TopImage from "../../assets/dve/dve-tool.svg";
 import DownImage from "../../assets/bolus/bolus-down.svg";
 
@@ -31,7 +31,16 @@ export const Dve = () => {
         topImage={TopImage}
         downImage={DownImage}
       />
-      <DownloadGuid />
+      <div
+        style={{
+          width: "50%",
+          margin: "0 auto",
+          display: "flex",
+          justifyContent: "center"
+        }}
+      >
+        <DownloadGuid />
+      </div>
     </>
   );
 };
