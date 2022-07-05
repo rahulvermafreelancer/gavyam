@@ -1,28 +1,6 @@
 import React from "react";
 import "./index.css";
-
-const imageData = [
-  {
-    id: 1,
-    image: "/assets/cone.png"
-  },
-  {
-    id: 2,
-    image: "/assets/ctwo.png"
-  },
-  {
-    id: 3,
-    image: "/assets/cthree.png"
-  },
-  {
-    id: 4,
-    image: "/assets/cfour.png"
-  },
-  {
-    id: 51,
-    image: "/assets/cfive.png"
-  }
-];
+import "./team.css";
 
 export const Value = () => {
   return (
@@ -61,6 +39,8 @@ export const Value = () => {
           <div className="card-one-value">
             <p className="font-regular text-white value-sm-card-text">
               Welfare of cattle
+              <br />
+              <br />
             </p>
             <div className="sm-value-card-bg">
               <img
