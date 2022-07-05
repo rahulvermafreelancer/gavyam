@@ -3,10 +3,10 @@
   flex-direction: row;
 }
 .banner-text-conatiner {
-  width: 55%;
+  width: 60%;
 }
 .banner-image-container {
-  width: 45%;
+  width: 40%;
   margin-top: 15rem;
 }
 @media only screen and (max-width: 750px) {
@@ -21,7 +21,7 @@
 .banner-text-background-container {
   background: transparent url("../../../../public//assets/banner-bg.svg") 0% 0%
     no-repeat padding-box;
-  background-repeat: no-repeat no-repeat;
+  background-size: 90%;
 }
 .banner-container-text-align {
   width: 60%;
@@ -46,6 +46,7 @@
 .about-button {
   width: 60%;
   margin: 0 auto;
+  padding-top: 1%;
   margin-bottom: 5%;
 }
 .banner-design {

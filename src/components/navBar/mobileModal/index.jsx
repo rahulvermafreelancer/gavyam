@@ -38,41 +38,13 @@ const MobileModal = ({ isOpen, handler }) => {
                 className="flex flex-col gap-2 px-5 py-4  text-xl text-green border-b border-gray "
                 onClick={handler}
               >
-                <Link to="/product/bolus">DigiGAI Bolus</Link>
-                <Link to="/product/dte">DigiGAI DTE</Link>
-                <Link to="/product/dve">DigiGAI DVE</Link>
+                <Link to="/products/bolus">DigiGAI Bolus</Link>
+                <Link to="/products/dte">DigiGAI DTE</Link>
+                <Link to="/products/dve">DigiGAI DVE</Link>
               </div>
             </div>
           </div>
-          <div class="accordion-item bg-white ">
-            <h2 class="accordion-header mb-0" id="headingTwo">
-              <button
-                class="fill-green  accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left hover:fill-green active:fill-green bg-white border-0 rounded-none transition  "
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-                <h3 className="text-2xl text-earth  font-regular">About Us</h3>
-              </button>
-            </h2>
-            <div
-              id="collapseTwo"
-              class="accordion-collapse collapse border-gray"
-              aria-labelledby="headingTwo"
-              data-bs-parent="#accordionExample"
-            >
-              <div
-                className="flex flex-col gap-2 px-6 text-xl text-green py-4 border-b border-gray  "
-                onClick={handler}
-              >
-                <Link to="/product/bolus">Mision</Link>
-                <Link to="/product/dte">Dummy Link</Link>
-                <Link to="/product/dve">Dummy Link</Link>
-              </div>
-            </div>
-          </div>
+
           <div class="accordion-item">
             <h2 class="accordion-header mb-0" id="headingThree">
               <button
@@ -96,10 +68,8 @@ const MobileModal = ({ isOpen, handler }) => {
                 className="flex flex-col gap-2 px-6 text-xl text-green py-4 border-b border-gray"
                 onClick={handler}
               >
-                <Link to="/product/bolus">Mision</Link>
-                <Link to="/product/dte">FAQs</Link>
-                <Link to="/product/dve">Privacy Policy</Link>
-                <Link to="/product/dve">Dummy Link</Link>
+                <Link to="#">FAQs</Link>
+                <Link to="#">Privacy Policy</Link>
               </div>
             </div>
           </div>
@@ -110,6 +80,12 @@ const MobileModal = ({ isOpen, handler }) => {
         >
           <Link to="/">
             <span>Home</span>
+          </Link>
+          <Link to="/about">
+            <span>About Us</span>
+          </Link>
+          <Link to="/career">
+            <span>Career</span>
           </Link>
           <Link to="/contact">
             <span>Contact Us</span>
