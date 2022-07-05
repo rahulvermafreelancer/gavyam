@@ -15,7 +15,7 @@ const Bolus = () => {
             can help dairy farmers or veterinarians seamlessly monitor the
             entire herd individually on a cloud-based system.
           </span>
-          <div className="my-9">
+          <div style={{ width: "50%", paddingTop: "5%" }}>
             <MasterBtn
               bgColor="white"
               text="Read More"

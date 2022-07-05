@@ -38,7 +38,7 @@ export const CoreTeam = () => {
             />
           </div>
           <div className="team-user-name">
-            <p className="team-name-Text font-regular">Nithya Nair</p>
+            <p className="team-name-Text font-regular">Rajesh Patel</p>
             <div className="icon-section">
               <img src="./assets/about/plus.svg" alt="plus" />
             </div>

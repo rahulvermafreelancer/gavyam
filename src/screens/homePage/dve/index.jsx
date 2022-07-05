@@ -15,7 +15,7 @@ const DVE = () => {
             accurate insemination data and live streams the procedure to ensure
             100% accuracy and success rate.
           </span>
-          <div className="my-9">
+          <div style={{ width: "50%", paddingTop: "5%" }}>
             <MasterBtn bgColor="brown" text="Read More" link="/products/dve" />
           </div>
         </div>

@@ -18,7 +18,7 @@
 }
 .unique-card-main {
   width: 467px;
-  height: 729px;
+  height: 800px;
   background-color: #ffffff;
   border-radius: 234px;
   margin: 2%;
@@ -38,12 +38,12 @@
   padding-top: 10%;
 }
 .unique-card-title {
-  font-size: 1.4vw;
+  font-size: 1.45vw;
   color: #b55219;
   text-align: center;
 }
 .unique-card-para {
-  font-size: 1vw;
+  font-size: 1.125vw;
   text-align: center;
   width: 75%;
   margin: 0 auto;

@@ -28,7 +28,16 @@ export const Dte = () => {
         downImage={DownImage}
       />
       <Unique />
-      <DownloadGuid />
+      <div
+        style={{
+          width: "50%",
+          margin: "0 auto",
+          display: "flex",
+          justifyContent: "center"
+        }}
+      >
+        <DownloadGuid />
+      </div>
     </>
   );
 };

@@ -17,7 +17,7 @@ const DTE = () => {
             handling, safety, and sustainability of both normal and sex-sorted
             semen.
           </span>
-          <div className="my-9">
+          <div style={{ width: "50%", paddingTop: "5%" }}>
             <MasterBtn text="Read More" bgColor="brown" link="/products/dte" />
           </div>
         </div>

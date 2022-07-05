@@ -56,8 +56,6 @@
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 .download-align-btn {
-  width: 30%;
-  margin: 0 auto;
   margin-top: 5%;
   cursor: pointer;
 }

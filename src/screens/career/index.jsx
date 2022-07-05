@@ -69,9 +69,8 @@ export const Career = () => {
           </h1>
           <div className="color-bar-career" />
           <p className="para-text-desc-career font-light text-white">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis.
+            No revolution springs by one man, it takes an army of people united
+            with one vision.
           </p>
         </div>
       </div>
@@ -83,7 +82,7 @@ export const Career = () => {
               Gavyam Gentech Pvt. Ltd.
             </h1>
             <p className="contact-para-text font-regular">
-              Sed ut perspiciatis unde omnis iste natus error sit.
+              Digitalizing cattle breeding and management.
             </p>
           </div>
           <div className="heading-section">
@@ -123,7 +122,7 @@ export const Career = () => {
               Let's talk!
             </h1>
             <p className="contact-para-text font-regular">
-              Wish to digitalize cattle health management?
+              We’re looking for unique talents
             </p>
           </div>
           <div className="contact-form-div">
@@ -249,7 +248,7 @@ export const Career = () => {
       </div>
       <div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.245174446712!2d75.86088531535101!3d22.756280831937364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd0e0fffffff%3A0x9bb2a69245d1bc90!2sTalati%20Marketing!5e0!3m2!1sen!2sin!4v1640081278511!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763748.913330779!2d72.24732220653627!3d22.893590998489444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4dc33868317d%3A0x69485a5b140c602b!2sSystem%20Level%20Solutions%20(SLS)!5e0!3m2!1sen!2sin!4v1657024691954!5m2!1sen!2sin"
           width="100%"
           height="650"
           style={{ border: 0 }}

@@ -5,7 +5,7 @@ export const MasterBtn = ({ bgColor, text, link }) => {
     <a href={link} style={{ textDecoration: "none" }}>
       <button
         data="red"
-        className={`border-2 border-${bgColor} cursor-pointer rounded-full flex flex-nowrap items-center text-${bgColor} justify-center gap-4 hvr-bounce-to-right overflow-hidden py-5 text-xl my-1  px-12  hvr-bounce-to-right-${bgColor}`}
+        className={`custom-btn border-2 border-${bgColor} cursor-pointer rounded-full flex flex-nowrap items-center text-${bgColor} justify-center hvr-bounce-to-right overflow-hidden  hvr-bounce-to-right-${bgColor}`}
       >
         <p className="font-regular link-text">{text}</p>
 
@@ -15,6 +15,7 @@ export const MasterBtn = ({ bgColor, text, link }) => {
           height="18.081"
           viewBox="0 0 27.11 18.081"
           className="fill-current"
+          style={{ marginLeft: 10 }}
         >
           <path
             id="Icon_ionic-ios-arrow-round-forward"
