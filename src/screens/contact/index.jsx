@@ -54,13 +54,13 @@ export const Contact = () => {
   return (
     <>
       <div className="header-section">
-        <div className="page-section-banner">
+        {/* <div className="page-section-banner">
           <p className="page-section-text font-regular text-white">Home</p>
           <img src="/assets/arrowLeft.svg" alt="arrow" />
           <p className="page-section-text font-regular text-white">
             Contact Us
           </p>
-        </div>
+        </div> */}
         <div className="main-section-contact">
           <h1 className="main-section-title font-regular font-bold text-white">
             CONTACT US

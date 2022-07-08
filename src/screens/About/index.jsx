@@ -10,11 +10,11 @@ export const About = () => {
   return (
     <>
       <div className="header-section">
-        <div className="page-section-banner">
+        {/* <div className="page-section-banner">
           <p className="page-section-text font-light text-white">Home</p>
           <img src="/assets/arrowLeft.svg" alt="arrow" />
           <p className="page-section-text font-light text-white">About Us</p>
-        </div>
+        </div> */}
         <div className="main-section">
           <h1 className="main-section-title font-regular font-bold text-white">
             ABOUT US

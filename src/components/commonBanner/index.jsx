@@ -9,13 +9,13 @@ export const CommonBanner = ({
 }) => {
   return (
     <div className="header-section">
-      <div className="page-section-banner">
+      {/* <div className="page-section-banner">
         <p className="page-section-text text-white font-light">Home</p>
         <img src="/assets/arrowLeft.svg" alt="arrow" />
         <p className="page-section-text text-white font-light">{sectionName}</p>
         <img src="/assets/arrowLeft.svg" alt="arrow" />
         <p className="page-section-text text-white font-regular">{pageName}</p>
-      </div>
+      </div> */}
       <div className="main-section-one">
         <h1 className="main-section-title text-white font-regular font-bold">
           {pageTitle}
