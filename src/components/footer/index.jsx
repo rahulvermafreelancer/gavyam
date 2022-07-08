@@ -623,7 +623,7 @@ export const Footer = () => {
               <div className="flex flex-nowrap   gap-3 mx-auto justify-center">
                 <a
                   rel="noreferrer"
-                  href="https://www.blacksof.com/"
+                  href=" https://www.linkedin.com/company/gavyam-gentech-private-limited"
                   target="_blank"
                   className="h-8 w-8  xl:h-10  xl:w-10  grid place-content-center fill-green hover:fill-earth"
                 >
@@ -645,7 +645,7 @@ export const Footer = () => {
                 </a>
                 <a
                   rel="noreferrer"
-                  href="https://www.blacksof.com/"
+                  href=" https://www.linkedin.com/company/gavyam-gentech-private-limited"
                   target="_blank"
                   className="h-8 w-8  xl:h-10  xl:w-10  grid place-content-center fill-green hover:fill-earth"
                 >
@@ -667,7 +667,7 @@ export const Footer = () => {
                 </a>
                 <a
                   rel="noreferrer"
-                  href="https://www.blacksof.com/"
+                  href=" https://www.linkedin.com/company/gavyam-gentech-private-limited"
                   target="_blank"
                   className="h-8 w-8  xl:h-10  xl:w-10  grid place-content-center fill-green hover:fill-earth"
                 >
@@ -689,7 +689,7 @@ export const Footer = () => {
                 </a>
                 <a
                   rel="noreferrer"
-                  href="https://www.blacksof.com/"
+                  href=" https://www.linkedin.com/company/gavyam-gentech-private-limited"
                   target="_blank"
                   className="h-8 w-8  xl:h-10  xl:w-10  grid place-content-center fill-green hover:fill-earth"
                 >
