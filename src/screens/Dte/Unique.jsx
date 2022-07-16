@@ -23,7 +23,7 @@ export const Unique = () => {
               </h1>
               <p className="unique-card-para font-regular ">
                 Accurate display of the uniform temperature of the liquid in the
-                device helps thaw semen efficiently for precise time.
+                device helps to thaw semen efficiently for precise time.
               </p>
             </div>
           </div>
@@ -39,7 +39,7 @@ export const Unique = () => {
                 Thinnest design in the market
               </h1>
               <p className="unique-card-para font-regular ">
-                Compact and easy-to-carry device that eases commute and helps AI
+                Compact and easy-to-carry device that eases commute to and helps AI
                 workers save time and effort.
               </p>
             </div>

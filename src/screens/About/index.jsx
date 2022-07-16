@@ -56,7 +56,7 @@ export const About = () => {
             <div className="mission-section">
               <h1 className="mission-title font-regular font-bold">Mission</h1>
               <p className="mission-paragraph font-regular font-bold">
-                Digitalization of the dairy industry to help farmers raise
+                Digitalization of the dairy industry to help farmers to raise
                 healthier and more productive livestock.
               </p>
             </div>

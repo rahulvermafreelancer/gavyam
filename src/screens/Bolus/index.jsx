@@ -18,14 +18,14 @@ const DATA = [
     id: 1,
     title: "Instant financial benefits",
     paratext:
-      "Bolus helps you lower the mortality rates and reduce the economic impact of non-fatal diseases",
+      "Bolus helps you to lower the mortality rates and reduce the economic impact of non-fatal diseases",
     image: "/assets/manage/c1.svg"
   },
   {
     id: 2,
     title: "Keep diseases at bay",
     paratext:
-      "The advanced technology identifies & helps prevents illness before the infection spreads",
+      "The advanced technology identifies & helps to prevents illness before the infection spreads",
     image: "/assets/manage/c2.svg"
   },
   {

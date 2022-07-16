@@ -6,7 +6,25 @@ export const CoreTeam = () => {
   return (
     <div className="core-team-main">
       <h1 className="core-team-heading font-regular font-bold">Core Team</h1>
-
+      <p
+        style={{
+          width: "70%",
+          margin: "0 auto",
+          marginBottom: '3%',
+          font: '1.3vw',
+          lineHeight: '1.8vw'
+        }}
+        className="font-regular font-bold"
+      >
+        Our Core team has more than 25 years of experience in Research &
+        Development of Biotechnology, IoT (Internet of Things), AI (Artificial
+        Intelligence), ML (Machine Learning), Semiconductor/Electronics product
+        development across consumer, industrial and defense.
+        
+        25 years of Professional experience with proven expertise in sales,
+        marketing, management & company operations in the field of dairy
+        technology, animal husbandry and automation.
+      </p>
       <div
         style={{
           width: "75%",
@@ -14,7 +32,7 @@ export const CoreTeam = () => {
           display: "flex",
           flexDirection: "row",
           justifyContent: "space-around",
-          flexWrap: "wrap"
+          flexWrap: "wrap",
         }}
       >
         <div class="flip-card" style={{ marginBottom: 40 }}>

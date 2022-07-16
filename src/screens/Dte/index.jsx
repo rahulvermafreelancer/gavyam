@@ -3,7 +3,7 @@ import {
   CommonBanner,
   DetailContainer,
   DownloadGuid,
-  ToolsDetails
+  ToolsDetails,
 } from "../../components";
 import TopImage from "../../assets/dte/dte-tool.svg";
 import DownImage from "../../assets/bolus/bolus-down.svg";
@@ -19,8 +19,8 @@ export const Dte = () => {
         pageTitle="DIGITAL THAWING EQUIPMENT"
       />
       <DetailContainer
-        title="Efficient sperm thawing unit for artificial insemination"
-        subpara="digiGAI Digital Thawing Equipment is the most effective way to liquefy frozen or sex-sorted semen while artificially inseminating a cow or cattle. It equips users to set the correct temperature for the thawing process and also displays live temperature readings to minimize errors during semen insemination."
+        title="Efficient semen thawing unit for artificial insemination"
+        subpara="digiGAI Digital Thawing Equipment is the most effective way to liquefy frozen or sex-sorted semen while artificially inseminating a cow or cattle. It equips users to set the correct temperature for the thawing process and also displays live temperature readings to minimize errors during semen thawing process."
       />
       <ToolsDetails
         title="Features"
@@ -33,7 +33,7 @@ export const Dte = () => {
           width: "50%",
           margin: "0 auto",
           display: "flex",
-          justifyContent: "center"
+          justifyContent: "center",
         }}
       >
         <DownloadGuid />
