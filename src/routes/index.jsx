@@ -7,7 +7,11 @@ import {
   About,
   Contact,
   Career,
-  Resource
+  Resource,
+  Dashboard,
+  Login,
+  Register,
+  Reset,
 } from "../screens";
 
 import { Footer, NavBar } from "../components";
@@ -30,8 +34,8 @@ const paths = () => {
       children: [
         { path: "bolus", element: <Bolus /> },
         { path: "dve", element: <Dve /> },
-        { path: "dte", element: <Dte /> }
-      ]
+        { path: "dte", element: <Dte /> },
+      ],
     },
     {
       path: "/",
@@ -41,9 +45,13 @@ const paths = () => {
         { path: "contact", element: <Contact /> },
         { path: "about", element: <About /> },
         { path: "resources", element: <Resource /> },
-        { path: "career", element: <Career /> }
-      ]
-    }
+        { path: "career", element: <Career /> },
+        { path: "dashboard", element: <Dashboard /> },
+        { path: "login", element: <Login /> },
+        { path: "register", element: <Register /> },
+        { path: "reset", element: <Reset /> },
+      ],
+    },
   ];
 };
 

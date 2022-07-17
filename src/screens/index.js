@@ -5,4 +5,8 @@ export * from "./Dve";
 export * from "./About";
 export * from "./contact";
 export * from "./career";
-export * from './resources'
+export * from "./resources";
+export * from "./Admin";
+export * from "./Login";
+export * from "./Register";
+export * from "./Reset";
