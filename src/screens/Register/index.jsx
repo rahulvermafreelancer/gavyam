@@ -7,6 +7,7 @@ import {
   signInWithGoogle,
 } from "../../firebase";
 import "./index.css";
+import googleLogo from "../../assets/google.png";
 
 export const Register = () => {
   const [email, setEmail] = useState("");
@@ -27,40 +28,62 @@ export const Register = () => {
 
   return (
     <>
-      <div className="register">
-        <div className="register__container">
-          <input
-            type="text"
-            className="register__textBox"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            placeholder="Full Name"
-          />
-          <input
-            type="text"
-            className="register__textBox"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="E-mail Address"
-          />
-          <input
-            type="password"
-            className="register__textBox"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            placeholder="Password"
-          />
-          <button className="register__btn" onClick={register}>
-            Register
-          </button>
-          <button
-            className="register__btn register__google"
-            onClick={signInWithGoogle}
-          >
-            Register with Google
-          </button>
-          <div>
-            Already have an account? <Link to="/">Login</Link> now.
+      <div className="login-main-container">
+        <div className="login-sub-cotainer">
+          <div className="input-field-div">
+            <label className="font-regular font-bold">Name:</label>
+            <input
+              type="text"
+              className="input-box font-regular"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              placeholder="Name"
+            />
+          </div>
+          <div className="input-field-div">
+            <label className="font-regular font-bold">Email:</label>
+            <input
+              type="text"
+              className="input-box font-regular"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="E-mail Address"
+            />
+          </div>
+          <br />
+          <div className="input-field-div">
+            <label className="font-regular font-bold">Password:</label>
+            <input
+              type="password"
+              className="input-box"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              placeholder="Password"
+            />
+          </div>
+          <div className="input-field-div">
+            <div className="google-btn" onClick={signInWithGoogle}>
+              <img src={googleLogo} width="10%" />
+              <p className="font-regular ml-1">Register with Google</p>
+            </div>
+          </div>
+          <div className="input-field-div">
+            <Link
+              to="/reset"
+              className="font-regular font-bold forget-password"
+            >
+              Forget Password
+            </Link>
+            <button className="login-btn" onClick={register}>
+              Register
+            </button>
+          </div>
+          <div className="mt-2 font-regular">
+            Already have an account?{" "}
+            <Link to="/login" className="font-regular font-bold">
+              Login{" "}
+            </Link>
+            now.
           </div>
         </div>
       </div>

@@ -1,10 +1,30 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./index.css";
 
+import { auth, db } from "../../firebase";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { collection, onSnapshot, orderBy, query } from "firebase/firestore";
+
 export const Coursal = ({ heading }) => {
+
+  const [news, setNews] = useState([]);
+
+  useEffect(() => {
+    const articleRef = collection(db, "News");
+    const q = query(articleRef, orderBy("createdAt", "desc"));
+    onSnapshot(q, (snapshot) => {
+      const articles = snapshot.docs.map((doc) => ({
+        id: doc.id,
+        ...doc.data(),
+      }));
+      setNews(articles);
+    });
+  }, []);
+
+  
   const settings = {
     dots: false,
     infinite: true,

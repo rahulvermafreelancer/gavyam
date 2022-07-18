@@ -1,25 +1,86 @@
-.dashboard {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .dashboard__container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: #dcdcdc;
-    padding: 30px;
-  }
-  .dashboard__btn {
-    padding: 10px;
-    font-size: 18px;
-    margin-top: 10px;
-    border: none;
-    color: white;
-    background-color: black;
-  }
-  .dashboard div {
-    margin-top: 7px;
-  }
+.dasboard-main-container {
+}
+.dasboard-user-div {
+  width: 96%;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: end;
+}
+.user-details {
+  text-align: end;
+  width: 96%;
+  margin: 0 auto;
+}
+.logout-btn {
+  width: 96%;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: end;
+}
+.design-btn {
+  text-align: center;
+  width: 10%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #1f2d16;
+  color: #fff;
+}
+.tab-list-dashboard{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.news-main-container{
+display: flex;
+flex-direction: row;
+}
+.left-box{
+  width: 30%;
+  padding-top: 20px;
+  background-color: aliceblue;
+  padding-bottom: 25px;
+}
+
+.right-box{
+  width: 70%;
+}
+
+.news-input-div{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+.form-control-news{
+  border: 1px solid #1f2d16;
+  margin-top: 10px;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.news-btn{
+  margin-left: 15px;
+}
+.news-list-main{
+  width: 90%;
+  margin: 0 auto;
+  background-color: aliceblue;
+  padding: 20px;
+}
+.list-items-news{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+.text-box-news{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.delete-btn{
+  background-color: red;
+  margin-left: 20%;
+  align-self: center;
+  color: white;
+}
