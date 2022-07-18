@@ -14,6 +14,7 @@ const AddNews = () => {
     title: "",
     description: "",
     image: "",
+    createdBy: "",
     createdAt: Timestamp.now().toDate(),
   });
 
@@ -28,7 +29,7 @@ const AddNews = () => {
   };
 
   const handlePublish = () => {
-    if (!formData.title || !formData.description || !formData.image) {
+    if (!formData.title || !formData.description || !formData.image || !formData.createdBy) {
       alert("Please fill all the fields");
       return;
     }
@@ -56,6 +57,7 @@ const AddNews = () => {
           title: "",
           description: "",
           image: "",
+          createdBy: "",
         });
 
         getDownloadURL(uploadImage.snapshot.ref).then((url) => {
@@ -65,7 +67,7 @@ const AddNews = () => {
             description: formData.description,
             imageUrl: url,
             createdAt: Timestamp.now().toDate(),
-            createdBy: user.displayName,
+            createdBy: formData.createdBy,
             userId: user.uid,
           })
             .then(() => {
@@ -110,6 +112,17 @@ const AddNews = () => {
           </div>
 
           <div className="news-input-div">
+            <label className="font-regular font-bold">Created By</label>
+            <input
+              type="text"
+              name="createdBy"
+              className="form-control-news"
+              value={formData.createdBy}
+              onChange={(e) => handleChange(e)}
+            />
+          </div>
+
+          <div className="news-input-div">
             <label className="font-regular font-bold">Description</label>
             <input
               type="file"
@@ -119,6 +132,7 @@ const AddNews = () => {
               onChange={(e) => handleImageChange(e)}
             />
           </div>
+
           {progress === 0 ? null : (
             <div className="progress">
               <div

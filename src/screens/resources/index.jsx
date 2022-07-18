@@ -57,9 +57,9 @@ export const Resource = () => {
         </div>
       </div>
 
-      <Coursal heading="News & More" />
-      <Coursal heading="Articles" />
-      <Coursal heading="Case studies" />
+      <Coursal heading="News & More" db_collection="News" />
+      <Coursal heading="Articles" db_collection="Articles" />
+      <Coursal heading="Case studies" db_collection="Case Studies" />
     </>
   );
 };
