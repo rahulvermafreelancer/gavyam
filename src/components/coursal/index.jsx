@@ -24,7 +24,7 @@ export const Coursal = ({ heading, db_collection }) => {
   const settings = {
     dots: false,
     infinite: true,
-    // slidesToShow: 3,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -63,7 +63,7 @@ export const Coursal = ({ heading, db_collection }) => {
               <div>
                 <div className="slider-card-main" key={id}>
                   <div className="slider-image-section">
-                    <img src={imageUrl} alt="cow" />
+                    <img src={imageUrl} alt="cow"  style={{borderRadius: '5%'}}/>
                   </div>
                   <div className="shop-section">
                     <p className="shop-text font-regular">Shop</p>

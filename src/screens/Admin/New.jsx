@@ -123,7 +123,7 @@ const AddNews = () => {
           </div>
 
           <div className="news-input-div">
-            <label className="font-regular font-bold">Description</label>
+            <label className="font-regular font-bold">Image</label>
             <input
               type="file"
               name="image"

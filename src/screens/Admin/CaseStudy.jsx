@@ -12,6 +12,7 @@ const AddCaseStudy = () => {
     title: "",
     description: "",
     image: "",
+    createdBy: "",
     createdAt: Timestamp.now().toDate(),
   });
 
@@ -26,7 +27,12 @@ const AddCaseStudy = () => {
   };
 
   const handlePublish = () => {
-    if (!formData.title || !formData.description || !formData.image) {
+    if (
+      !formData.title ||
+      !formData.description ||
+      !formData.image ||
+      !formData.createdBy
+    ) {
       alert("Please fill all the fields");
       return;
     }
@@ -54,6 +60,7 @@ const AddCaseStudy = () => {
           title: "",
           description: "",
           image: "",
+          createdBy: "",
         });
 
         getDownloadURL(uploadImage.snapshot.ref).then((url) => {
@@ -63,10 +70,8 @@ const AddCaseStudy = () => {
             description: formData.description,
             imageUrl: url,
             createdAt: Timestamp.now().toDate(),
-            createdBy: user.displayName,
+            createdBy: formData.createdBy,
             userId: user.uid,
-            likes: [],
-            comments: [],
           })
             .then(() => {
               toast("Case Studies added successfully", { type: "success" });
@@ -110,7 +115,18 @@ const AddCaseStudy = () => {
           </div>
 
           <div className="news-input-div">
-            <label className="font-regular font-bold">Description</label>
+            <label className="font-regular font-bold">Created By</label>
+            <input
+              type="text"
+              name="createdBy"
+              className="form-control-news"
+              value={formData.createdBy}
+              onChange={(e) => handleChange(e)}
+            />
+          </div>
+
+          <div className="news-input-div">
+            <label className="font-regular font-bold">Image</label>
             <input
               type="file"
               name="image"
