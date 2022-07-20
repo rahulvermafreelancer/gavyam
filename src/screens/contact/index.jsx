@@ -197,8 +197,8 @@ export const Contact = () => {
 
             <div className="input-main-contact-div">
               <div style={{ width: "95%" }}>
-                <input
-                  type="textarea"
+                <textarea
+                  type="text"
                   placeholder="Your Message"
                   value={msg}
                   onChange={(event) => setMsg(event.target.value)}
